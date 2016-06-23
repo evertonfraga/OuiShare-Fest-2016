@@ -1,4 +1,35 @@
 pt-BR:
+  dynamic_translations:
+    past_editions:
+    from_tradition_to_transition:
+    tickets:
+      press_media:
+    prepare_your_trip:
+      title:
+    travel_information:
+      title:
+    where_to_stay:
+      title:
+    getting_venue:
+      title:
+    about:
+      landing_1:
+    about:
+      landing_2:
+    speakers:
+      see_all:
+    partners:
+      button:
+    join:
+      ready:
+    footer:
+      subscribe_newsletter:
+    footer:
+      open_source_fest:
+    coc:
+      title:
+
+
   date:
     abbr_day_names:
     - Dom

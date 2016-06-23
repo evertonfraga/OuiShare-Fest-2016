@@ -1,0 +1,178 @@
+
+.tickets.triangle_bg_tickets.white_txt.vspace
+  .container.tickets-section
+    .row.centered{:style => "padding-top:0; padding-bottom:0"}
+      .col-md-10.col-md-offset-1.col-sm-12
+        %h3.ouishare_stencil.centered
+          = t('dynamic_translations.tickets.title')
+        %hr.pink
+        %br
+        %br
+        %p
+          = t('dynamic_translations.tickets.description1')
+          %a{href: "/join#_getinvolved"}
+            = t('dynamic_translations.tickets.get_involved')
+        .tickets-table
+          .row
+            .col-md-2.col-md-offset-6.col-xs-4.col-xs-offset-0.title-blue
+              = t('dynamic_translations.tickets_table.pioneers')
+            .col-md-2.col-xs-4.title-blue
+              = t('dynamic_translations.tickets_table.explorers')
+            .col-md-2.col-xs-4.title-blue
+              = t('dynamic_translations.tickets_table.hackers')
+          .tickets-border
+            .row.title-inverse
+              .col-md-6.col-sm-12.title-inverse
+                %span{:style => "padding:2em auto;"}
+                  = t('dynamic_translations.tickets_table.core_features')
+              .col-md-2.col-xs-4.title-inverse
+                = t('dynamic_translations.tickets_price.pioneers_3d')
+                %br
+                %br
+                = t('dynamic_translations.tickets_price.pioneers_1d')
+              .col-md-2.col-xs-4.title-inverse
+                = t('dynamic_translations.tickets_price.explorers_3d')
+                %br
+                %br
+                = t('dynamic_translations.tickets_price.explorers_1d')
+              .col-md-2.col-xs-4.title-inverse
+                = t('dynamic_translations.tickets_price.hackers_3d')
+                %br
+                %br
+                = t('dynamic_translations.tickets_price.hackers_1d')
+            .row
+              .col-md-6.col-sm-12
+                = t('dynamic_translations.tickets_table.core_1_access')
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.core_2_food')
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.core_3_partner_events')
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.core_4_access_party')
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.core_5_participants_list')
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+            .row
+              .col-md-12.title-inverse{:style => "padding:none;"}
+                = t('dynamic_translations.tickets_table.extended_features')
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.ext_3_webinar')
+              .col-md-2.col-xs-4
+                &nbsp;
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                &nbsp;
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.ext_1_reception')
+              .col-md-2.col-xs-4
+                &nbsp;
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                &nbsp;
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.ext_welcoming') 
+              .col-md-2.col-xs-4
+                &nbsp;
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                &nbsp;
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.ext_matchmaking')
+              .col-md-2.col-xs-4
+                &nbsp;
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                &nbsp;
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.ext_advice')
+              .col-md-2.col-xs-4
+                &nbsp;
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                &nbsp;
+            .row
+              .col-md-6
+                = t('dynamic_translations.tickets_table.ext_4_book') 
+                %em
+                  = t('dynamic_translations.tickets_table.ext_4_book_title')
+              .col-md-2.col-xs-4
+                &nbsp;
+              .col-md-2.col-xs-4
+                = image_tag "/assets/tickets-tick-white.svg"
+              .col-md-2.col-xs-4
+                &nbsp;
+          %p.left
+            = t('dynamic_translations.tickets_table.questions') 
+            %b
+              %a{:href => 'mailto:partners@ouisharefest.com'}
+                partners@ouisharefest.com
+        %br
+        / %p.text-center
+        /   = image_tag("2016-tickets-#{I18n.locale}-05.png", width: "100%", alt: "Ticket options")
+        /   / %img{:src => '/assets/2016-tickets-en-03.png', :alt => 'Ticket options', :style => "max-width: 100%"}
+        /   / %img{:src => '/assets/2016-tickets-fr-03.png', :alt => 'Options billets', :style => "max-width: 100%"}
+        / %br
+        %br
+
+        / / Eventbrite form
+        / %div.eventbrite
+        /   %iframe.inverse{:allowtransparency => "true", :frameborder => "0", :height => "640", :hspace => "0", :marginheight => "5", :marginwidth => "5", :scrolling => "auto", :src => "http://www.eventbrite.com/tickets-external?eid=19202830182&ref=etckt&v=2", :vspace => "0", :width => "100%"}
+        /   %div{:style => "font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"}
+        /     %a{:href => "http://www.eventbrite.com/r/etckt", :style => "color:#ddd; text-decoration:none;", :target => "_blank"} 
+        /       =t('dynamic_translations.tickets.event_registration_online')
+        /     %span{:style => "color:#ddd;"} 
+        /       =t('dynamic_translations.tickets.for')
+        /     %a{:href => "https://www.eventbrite.com/e/ouishare-fest-paris-2016-tickets-19202830182?aff=eac2", :style => "color:#ddd; text-decoration:none;", :target => "_blank"} OuiShare Fest 2016
+        /     %span{:style => "color:#ddd;"} 
+        /       =t('dynamic_translations.tickets.powered_by')
+        /     %a{:href => "http://www.eventbrite.com?ref=etckt", :style => "color:#ddd; text-decoration:none;", :target => "_blank"} Eventbrite
+
+    .row.centered.btn-space
+      .col-md-12
+        .col-md-6.col-md-offset-3
+          %a{:href => 'join#eventbrite'}
+            %button.btn.btn-large.btn-primary.get-involved-btn
+              = t('dynamic_translations.tickets.title')

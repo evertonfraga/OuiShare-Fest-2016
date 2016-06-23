@@ -2,9 +2,10 @@
 en:
   dynamic_translations:
     speakers:
-      title: Contributors
+      title: Speakers
       show_all: Show all the speakers
       hide_all: Hide speakers
+      team: Team
     about:
       description: OuiShare Fest is a three-day festival that brings together 1000
         actors from the collaborative economy in Paris each year.
@@ -12,6 +13,9 @@ en:
       subtitle: '1000 collaborative economy visionaries, coming together for three
         days of conference, co-creating and connecting. '
       the_event: About the event
+      colaboramerica: About ColaborAmerica
+      zero_waste: Zero Waste Event
+      the_venue: The Venue
     main:
       title: The Age of Communities
       event: Paris. May 5-7 at Cabaret Sauvage
@@ -20,6 +24,8 @@ en:
       live: Live!
       placeholder_stay_posted: Write your email here
       stay_posted: Stay posted
+      subscribe_title: Stay posted, subscribe now.
+      date: Rio de Janeiro, November 17-19
     what_is_community:
       text3: If you are ready for a unique experience which will produce knowledge,
         accelerate projects and foster new collaborations, then join us in Paris for
@@ -33,6 +39,8 @@ en:
         consumption, open source, makers and fablabs, coworking, crowdfunding, alternative
         currencies and more. How do these pieces fit together? What is the bigger
         picture?
+    key_topics:
+      title: Key Topics
     partners:
       title: Partners
       become_a_partner: If you would like to become a partner, please contact us at

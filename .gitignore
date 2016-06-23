@@ -39,3 +39,6 @@ config/initializers/locale.rb
 .powenv
 
 Gemfile.lock
+
+# Ignore application configuration
+/config/application.yml

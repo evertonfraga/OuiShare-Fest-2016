@@ -11,6 +11,8 @@ gem 'yaml_db'
 
 gem 'feedjira'
 
+gem 'xray-rails'
+
 #JS Runtimes to enable JS compatibility on Unix Server
 gem 'therubyracer', :platforms => :ruby
 gem 'execjs', :platforms => :ruby
@@ -85,6 +87,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   #provide more helpers to rspec
   gem 'webrat'
+  gem 'quiet_assets'
 
   #provide access to manipulate variable in error console
   gem 'binding_of_caller'

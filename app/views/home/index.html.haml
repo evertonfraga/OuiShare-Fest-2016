@@ -1,10 +1,9 @@
-#container.container-fluid.triangles
-  #output.triangles
+#container.container-fluid.index.triangles
   .container
     .main-section
       .row
         #head_logo_edges
-          = image_tag "/assets/logo_osf16_edges_white.svg"
+          = image_tag "/assets/logo-ca-white.png"
       .row
         / .col-md-10.col-md-offset-1
         /   %h1.main-title.white
@@ -16,42 +15,33 @@
           %h5.normal.white
             %span.vert-borders
               = t('dynamic_translations.main.date')
-          %h5.normal.white
-            = t('dynamic_translations.main.theme')
+          / %h5.normal.white
+          /   = t('dynamic_translations.main.theme')
 
       .row
         .col-md-8.col-md-offset-2
           / %br
           %br
           %p.centered.join_bouton
-            %a{:href => 'join#_tickets'}
-              %button.btn.btn-embossed.btn-primary
-                = t('dynamic_translations.reminder_ticket.getyourtickets')
+            = form_tag home_newsletter_collect_email_path, :class => "form-inline" do
+              .row
+                %h5.normal.white
+                  = t('dynamic_translations.main.subscribe_title')
+                  %br
+                  %br
+              .row
+                .col-md-6.col-md-push-3
+                  = text_field_tag :email_address,"", :class => "form-control-header", :placeholder => t('dynamic_translations.main.placeholder_stay_posted')
+                  = submit_tag t('dynamic_translations.main.stay_posted'), :class => "btn-header btn btn-primary", :style => 'border-radius: 0px;'
+            / %a{:href => 'join#_tickets'}
+            /   %button.btn.btn-embossed.btn-primary
+            /     = t('dynamic_translations.reminder_ticket.getyourtickets')
 
 #controls.controls
 = javascript_include_tag 'triangles'
 
 / Tweetwall
-
-.blank_bg.vspace.tweetwall
-  .container
-    .row.centered
-      .col-md-4.col-sm-6
-        %a.twitter-timeline{:href => "https://twitter.com/hashtag/osfest16", :'data-widget-id' => "732199411867127808", :'data-chrome' => "noheader nofooter", :height => "1000"}
-          Tweets about OuiShare Fest 2016
-      .col-md-4.col-sm-6
-        %a.twitter-timeline{:href => "https://twitter.com/OuiShareFest", :'data-widget-id' => "424243584460541952", :'data-chrome' => "noheader nofooter", :height => "1000"}
-          Tweets by @OuiShareFest
-      .col-md-4.col-sm-6
-        %a.twitter-timeline{:href => "https://twitter.com/search?q=%40OuiShare%20OR%20%40OuiShareFest", :'data-widget-id' => "732206800662085633", :'data-chrome' => "noheader nofooter", :height => "1000"}
-          Tweets about OuiShare
-        %script
-          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-          if(!d.getElementById(id)){js=d.createElement(s);
-          js.id=id;
-          js.src=p+"://platform.twitter.com/widgets.js";
-          fjs.parentNode.insertBefore(js,fjs);
-          }}(document,"script","twitter-wjs");
+/ = render '/home/partials/tweetwall'
 
 / About the Fest
 .blank_bg
@@ -79,7 +69,6 @@
 %section#slideshow-container
   .banner
     %ul
-
       / slide 1
       %li{"data-transition" => "fade"}
         %img{alt: "", src: "assets/slider/inspire_2016.jpg", style: "background:#1abc9c"}/
@@ -159,187 +148,8 @@
               = t('dynamic_translations.speakers.see_all')
 
 
-
-
-
 / Buy tickets
-.tickets.triangle_bg_tickets.white_txt.vspace
-  .container.tickets-section
-    .row.centered{:style => "padding-top:0; padding-bottom:0"}
-      .col-md-10.col-md-offset-1.col-sm-12
-        %h3.ouishare_stencil.centered
-          = t('dynamic_translations.tickets.title')
-        %hr.pink
-        %br
-        %br
-        %p
-          = t('dynamic_translations.tickets.description1')
-          %a{href: "/join#_getinvolved"}
-            = t('dynamic_translations.tickets.get_involved')
-        .tickets-table
-          .row
-            .col-md-2.col-md-offset-6.col-xs-4.col-xs-offset-0.title-blue
-              = t('dynamic_translations.tickets_table.pioneers')
-            .col-md-2.col-xs-4.title-blue
-              = t('dynamic_translations.tickets_table.explorers')
-            .col-md-2.col-xs-4.title-blue
-              = t('dynamic_translations.tickets_table.hackers')
-          .tickets-border
-            .row.title-inverse
-              .col-md-6.col-sm-12.title-inverse
-                %span{:style => "padding:2em auto;"}
-                  = t('dynamic_translations.tickets_table.core_features')
-              .col-md-2.col-xs-4.title-inverse
-                = t('dynamic_translations.tickets_price.pioneers_3d')
-                %br
-                %br
-                = t('dynamic_translations.tickets_price.pioneers_1d')
-              .col-md-2.col-xs-4.title-inverse
-                = t('dynamic_translations.tickets_price.explorers_3d')
-                %br
-                %br
-                = t('dynamic_translations.tickets_price.explorers_1d')
-              .col-md-2.col-xs-4.title-inverse
-                = t('dynamic_translations.tickets_price.hackers_3d')
-                %br
-                %br
-                = t('dynamic_translations.tickets_price.hackers_1d')
-            .row
-              .col-md-6.col-sm-12
-                = t('dynamic_translations.tickets_table.core_1_access')
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.core_2_food')
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.core_3_partner_events')
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.core_4_access_party')
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.core_5_participants_list')
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-            .row
-              .col-md-12.title-inverse{:style => "padding:none;"}
-                = t('dynamic_translations.tickets_table.extended_features')
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.ext_3_webinar')
-              .col-md-2.col-xs-4
-                &nbsp;
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                &nbsp;
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.ext_1_reception')
-              .col-md-2.col-xs-4
-                &nbsp;
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                &nbsp;
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.ext_welcoming') 
-              .col-md-2.col-xs-4
-                &nbsp;
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                &nbsp;
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.ext_matchmaking')
-              .col-md-2.col-xs-4
-                &nbsp;
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                &nbsp;
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.ext_advice')
-              .col-md-2.col-xs-4
-                &nbsp;
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                &nbsp;
-            .row
-              .col-md-6
-                = t('dynamic_translations.tickets_table.ext_4_book') 
-                %em
-                  = t('dynamic_translations.tickets_table.ext_4_book_title')
-              .col-md-2.col-xs-4
-                &nbsp;
-              .col-md-2.col-xs-4
-                = image_tag "/assets/tickets-tick-white.svg"
-              .col-md-2.col-xs-4
-                &nbsp;
-          %p.left
-            = t('dynamic_translations.tickets_table.questions') 
-            %b
-              %a{:href => 'mailto:partners@ouisharefest.com'}
-                partners@ouisharefest.com
-        %br
-        / %p.text-center
-        /   = image_tag("2016-tickets-#{I18n.locale}-05.png", width: "100%", alt: "Ticket options")
-        /   / %img{:src => '/assets/2016-tickets-en-03.png', :alt => 'Ticket options', :style => "max-width: 100%"}
-        /   / %img{:src => '/assets/2016-tickets-fr-03.png', :alt => 'Options billets', :style => "max-width: 100%"}
-        / %br
-        %br
-
-        / / Eventbrite form
-        / %div.eventbrite
-        /   %iframe.inverse{:allowtransparency => "true", :frameborder => "0", :height => "640", :hspace => "0", :marginheight => "5", :marginwidth => "5", :scrolling => "auto", :src => "http://www.eventbrite.com/tickets-external?eid=19202830182&ref=etckt&v=2", :vspace => "0", :width => "100%"}
-        /   %div{:style => "font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"}
-        /     %a{:href => "http://www.eventbrite.com/r/etckt", :style => "color:#ddd; text-decoration:none;", :target => "_blank"} 
-        /       =t('dynamic_translations.tickets.event_registration_online')
-        /     %span{:style => "color:#ddd;"} 
-        /       =t('dynamic_translations.tickets.for')
-        /     %a{:href => "https://www.eventbrite.com/e/ouishare-fest-paris-2016-tickets-19202830182?aff=eac2", :style => "color:#ddd; text-decoration:none;", :target => "_blank"} OuiShare Fest 2016
-        /     %span{:style => "color:#ddd;"} 
-        /       =t('dynamic_translations.tickets.powered_by')
-        /     %a{:href => "http://www.eventbrite.com?ref=etckt", :style => "color:#ddd; text-decoration:none;", :target => "_blank"} Eventbrite
-
-    .row.centered.btn-space
-      .col-md-12
-        .col-md-6.col-md-offset-3
-          %a{:href => 'join#eventbrite'}
-            %button.btn.btn-large.btn-primary.get-involved-btn
-              = t('dynamic_translations.tickets.title')
+/ = render '/home/partials/buy_tickets'
 
 
 / Partners

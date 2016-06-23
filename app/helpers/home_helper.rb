@@ -4,10 +4,10 @@ module HomeHelper
 
   def select_languages
     languages_array = [{"en" => "EN"}, 
-                       {"fr" => "FR"},
+                       {"PT" => "PT"},
+                       {"es" => "ES"},
                        # {"de" => "DE"},
                        # {"it" => "IT"},
-                       # {"es" => "ES"},
                        # {"nl" => "NL"},
                       ]
                       
