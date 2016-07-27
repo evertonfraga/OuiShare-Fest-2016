@@ -120,8 +120,8 @@ class HomeController < ApplicationController
 
       @displayed_speakers = @speakers.first(displayed_speakers_number)
       @hidden_speakers = @speakers.last(@speakers.count - displayed_speakers_number)
-      @displayed_team_members = @team_members.first(displayed_team_members_number)
-      @hidden_team_members = @team_members.last(@team_members.count - displayed_team_members_number)
+      @displayed_team_members = @team_members.first(displayed_team_members_number) if @team_members
+      @hidden_team_members = @team_members.last(@team_members.count - displayed_team_members_number) if @team_members
     end
 
     if IndividualType.find_by_title('Featured')
@@ -299,7 +299,7 @@ private
   end
 
   def connect_to_sched
-    base_url = "http://testfffffffff2013.sched.org/api"
+    base_url = "http://colaboramerica16.sched.org/api"
     api_secret = "9c0e4074626d1d193078b9d0ed443f53"
     username = "frederic.grais@gmail.com"
     password = "258741"    
