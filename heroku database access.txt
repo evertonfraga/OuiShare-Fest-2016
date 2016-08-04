@@ -1,0 +1,19 @@
+Connection Settings
+
+Host
+ec2-54-235-125-135.compute-1.amazonaws.com
+Database
+d1v02gnsi03h4q
+User
+xeigxdwkwtqmdt
+Port
+5432
+Password
+Show
+Psql
+heroku pg:psql --app colaboramerica DATABASE
+URL
+Hide postgres://xeigxdwkwtqmdt:NJ52DJSEkGV7GeoobR2MK4j9sj@ec2-54-235-125-135.compute-1.amazonaws.com:5432/d1v02gnsi03h4q
+
+
+

@@ -116,3 +116,6 @@ gem 'strong_parameters'
 
 #Gem API with eventbrite
 gem 'eventbrite-client'
+
+# required when tried to run rails console from heroku
+gem 'test-unit', '~> 3.0'
