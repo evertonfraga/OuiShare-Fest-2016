@@ -50,7 +50,7 @@ OuiShareFest::Application.configure do
 
   # Mailer configuration 
   config.action_mailer.perform_deliveries = true
-  config.action_mailer.default_url_options = { :host => 'ouisharefest.com' }
+  config.action_mailer.default_url_options = { :host => 'colaboramerica.org' }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
 
@@ -66,7 +66,7 @@ OuiShareFest::Application.configure do
   password: ENV["MAILER_PASSWORD"]
   }
 
-  ActionMailer::Base.default :from => "OuiShare Team <no-reply@ouisharefest.com>"
+  ActionMailer::Base.default :from => "Colaboramerica Team <no-reply@colaboramerica.org>"
 
   #s3 paperclip upload
   config.paperclip_defaults = {
@@ -94,9 +94,9 @@ OuiShareFest::Application.configure do
 
   OuiShareFest::Application.config.middleware.use ExceptionNotification::Rack,
   :email => {
-    :email_prefix => "[OuiShareFest ERR] ",
-    :sender_address => %{"OuiShare Team" <no-reply@ouisharefest.com>},
-    :exception_recipients => %w{yann@kastelnik.com karol.arnaud@gmail.com auli@haldjas.org}
+    :email_prefix => "[Colaboramerica Webite] ",
+    :sender_address => %{"Colaboramerica Team" <no-reply@colaboramerica.org>},
+    :exception_recipients => %w{evertonfrag@gmail.com}
   }
   
   GA.tracker = ENV["GA_CREDENTIALS"]
