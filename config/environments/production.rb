@@ -49,7 +49,7 @@ OuiShareFest::Application.configure do
   # config.assets.precompile += %w( search.js )
 
   # Mailer configuration 
-  config.action_mailer.perform_deliveries = true
+  config.action_mailer.perform_deliveries = false
   config.action_mailer.default_url_options = { :host => 'colaboramerica.org' }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
