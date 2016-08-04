@@ -1,0 +1,29 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: pitchme-rails-backbone_development
+  host: localhost
+  username: ev
+  password: 
+  pool: 5
+  timeout: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: pitchme-rails-backbone_test
+  host: localhost
+  username: ev
+  password: 
+  pool: 5
+  timeout: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: d1v02gnsi03h4q
+  host: ec2-54-235-125-135.compute-1.amazonaws.com
+  username: xeigxdwkwtqmdt
+  password: NJ52DJSEkGV7GeoobR2MK4j9sj
+  pool: 5
+  timeout: 5432
