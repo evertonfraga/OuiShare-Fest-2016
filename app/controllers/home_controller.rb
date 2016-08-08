@@ -79,11 +79,11 @@ class HomeController < ApplicationController
 
   end
 
-    def participants
-      eb_auth_tokens = { app_key: ENV['EVENTBRITE_APP_KEY'],
-                   access_token: ENV['EVENTBRITE_USER_KEY']}
-      eb_client = EventbriteClient.new(eb_auth_tokens)
-      eventbrite_instance = connect_to_eventbrite()
+  def participants
+    eb_auth_tokens = { app_key: ENV['EVENTBRITE_APP_KEY'],
+                 access_token: ENV['EVENTBRITE_USER_KEY']}
+    eb_client = EventbriteClient.new(eb_auth_tokens)
+    eventbrite_instance = connect_to_eventbrite()
 
     begin
       @ouishare_fest_attendees = eventbrite_instance.event_list_attendees({ "id" => ENV["EVENTBRITE_EVENT_ID"] })
@@ -150,8 +150,8 @@ class HomeController < ApplicationController
       @patronage = IndividualType.find_by_title('Patronage').get_members
     end
 
-    
-    end
+  
+  end
 
   def join
   end

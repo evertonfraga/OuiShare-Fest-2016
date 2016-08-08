@@ -46,7 +46,7 @@ class Translation < ActiveRecord::Base
         f.write d.to_yaml
       end
     
-      connect_and_push_to_transifex()
+      # connect_and_push_to_transifex()
     end
   end
 
@@ -86,7 +86,7 @@ class Translation < ActiveRecord::Base
         f.write d.to_yaml
     end
     
-    connect_and_push_to_transifex()
+    # connect_and_push_to_transifex()
   end
 
   private 

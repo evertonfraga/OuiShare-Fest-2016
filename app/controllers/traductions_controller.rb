@@ -10,8 +10,7 @@ class TraductionsController < ApplicationController
   end
 
   def new
-    # @availables_languages = I18n.available_locales.sort    
-    @availables_languages = I18n.available_locales.select {|locale| locale.to_s == 'en'}
+    @availables_languages = I18n.available_locales.sort
   end
 
   def create    
@@ -44,8 +43,7 @@ class TraductionsController < ApplicationController
 
   def edit
     @translation = Translation.find(params[:id])
-    # @availables_languages = I18n.available_locales.sort
-    @availables_languages = I18n.available_locales.select {|locale| locale.to_s == 'en'}
+    @availables_languages = I18n.available_locales.sort
   end
 
   def update
