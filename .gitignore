@@ -36,3 +36,4 @@ config/initializers/locale.rb
 
 config/locales/individuals.yml
 config/locales/dynamic.yml
+config/application.yml
