@@ -25,8 +25,8 @@ class Individual < ActiveRecord::Base
   has_many :events, :class_name => "Event", :through => :event_indiv_assoc
 
   before_create :generate_slug
-  after_save :export_to_yaml
-  after_destroy :delete_from_yaml
+  # after_save :export_to_yaml
+  # after_destroy :delete_from_yaml
 
 
   def export_to_yaml
@@ -38,11 +38,9 @@ class Individual < ActiveRecord::Base
       end            
       d['en']['individuals_biography'][self.slug] = self.description
       
-      
       File.open(ENV['YAML_INDIVIDUALS_FILE_PATH'], 'w') do |f|
         f.write d.to_yaml
       end
-      # connect_and_push_to_transifex()
     end
   end
 
@@ -55,7 +53,6 @@ class Individual < ActiveRecord::Base
     File.open(ENV['YAML_INDIVIDUALS_FILE_PATH'], 'w') do |f|
       f.write d.to_yaml
     end
-    # connect_and_push_to_transifex()
   end
   
   def generate_slug    

@@ -26,10 +26,7 @@ translations/*
 config/locales/ouishare*
 config/locales/individuals*
 
-#config/application.yml
-config/locales/old en:fr/en.yml
-
-config/locales/old en:fr/fr.yml
+config/application.yml
 
 config/locales/fr.yml
 
@@ -37,9 +34,10 @@ config/initializers/locale.rb
 
 .powenv
 
-
 # Ignore application configuration
-#/config/application.yml
-
+/config/application.yml
 
 # config/database.yml
+
+config/locales/individuals.yml
+config/locales/dynamic.yml

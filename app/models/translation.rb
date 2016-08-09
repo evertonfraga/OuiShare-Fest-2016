@@ -1,8 +1,8 @@
 class Translation < ActiveRecord::Base
   attr_accessible :interpolations, :is_proc, :key, :locale, :value
 
-  after_save :export_to_yaml
-  after_destroy :delete_from_yaml
+  # after_save :export_to_yaml
+  # after_destroy :delete_from_yaml
 
   def export_to_yaml
     if self.locale == 'en' && value_changed?
@@ -41,14 +41,10 @@ class Translation < ActiveRecord::Base
         end
       end
       d["en"]["dynamic_translations"] = d["en"]["dynamic_translations"].merge(final_hash)
-
     
-      if ENV['RACK_ENV'] && ENV['RACK_ENV'] == 'development'
-        File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
-          f.write d.to_yaml
-        end
-      end  
-      # connect_and_push_to_transifex()
+      File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
+        f.write d.to_yaml
+      end
     end
   end
 
@@ -73,23 +69,17 @@ class Translation < ActiveRecord::Base
         older_hash = new_hash
         count -= 1
       end
-      final_hash = new_hash
-      # value = nested_hash_value(splitted_key)
-
-          
-      
-      d['en']['dynamic_translations'][splitted_key[0]] = (Hash[d['en']['dynamic_translations'][splitted_key[0]].to_a - final_hash[splitted_key[0]].to_a])
-      if d['en']['dynamic_translations'][splitted_key[0]].blank?
-        d['en']['dynamic_translations'].delete splitted_key[0]
-      end
-      
+    final_hash = new_hash
+    # value = nested_hash_value(splitted_key)
     
-    if ENV['RACK_ENV'] && ENV['RACK_ENV'] == 'development'
-      File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
-          f.write d.to_yaml
-      end
-    end    
-    # connect_and_push_to_transifex()
+    d['en']['dynamic_translations'][splitted_key[0]] = (Hash[d['en']['dynamic_translations'][splitted_key[0]].to_a - final_hash[splitted_key[0]].to_a])
+    if d['en']['dynamic_translations'][splitted_key[0]].blank?
+      d['en']['dynamic_translations'].delete splitted_key[0]
+    end
+  
+    File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
+        f.write d.to_yaml
+    end
   end
 
   private 
