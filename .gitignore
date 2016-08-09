@@ -26,17 +26,13 @@ translations/*
 config/locales/ouishare*
 config/locales/individuals*
 
-config/application.yml
-
 config/locales/fr.yml
 
 config/initializers/locale.rb
 
 .powenv
 
-
 # config/database.yml
 
 config/locales/individuals.yml
 config/locales/dynamic.yml
-
