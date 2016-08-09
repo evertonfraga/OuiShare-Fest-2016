@@ -26,7 +26,7 @@ translations/*
 config/locales/ouishare*
 config/locales/individuals*
 
-config/application.yml
+#config/application.yml
 config/locales/old en:fr/en.yml
 
 config/locales/old en:fr/fr.yml
@@ -39,7 +39,7 @@ config/initializers/locale.rb
 
 
 # Ignore application configuration
-/config/application.yml
+#/config/application.yml
 
 
 # config/database.yml

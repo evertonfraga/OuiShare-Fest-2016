@@ -41,11 +41,13 @@ class Translation < ActiveRecord::Base
         end
       end
       d["en"]["dynamic_translations"] = d["en"]["dynamic_translations"].merge(final_hash)
-      
-      File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
-        f.write d.to_yaml
-      end
+
     
+      if ENV['RACK_ENV'] && ENV['RACK_ENV'] == 'development'
+        File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
+          f.write d.to_yaml
+        end
+      end  
       # connect_and_push_to_transifex()
     end
   end
@@ -82,10 +84,11 @@ class Translation < ActiveRecord::Base
       end
       
     
-    File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
-        f.write d.to_yaml
-    end
-    
+    if ENV['RACK_ENV'] && ENV['RACK_ENV'] == 'development'
+      File.open(ENV['YAML_OUISHARE_FILE_PATH'], 'w') do |f|
+          f.write d.to_yaml
+      end
+    end    
     # connect_and_push_to_transifex()
   end
 

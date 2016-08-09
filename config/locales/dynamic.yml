@@ -1,0 +1,523 @@
+---
+en:
+  dynamic_translations:
+    about:
+      subtitle: about.subtitle
+      t1: about.t1
+      t2: about.t2
+      t3: about.t3
+      t4: about.t4
+      t5: about.t5
+      t6: about.t6
+      ouishare_title: about.ouishare_title
+      ouishare_text: about.ouishare_text
+      ouishare_btn: about.ouishare_btn
+      landing_1: about.landing_1
+      landing_2: about.landing_2
+      title: about.title
+      the_event: about.the_event
+      zero_waste: about.zero_waste
+      the_venue: about.the_venue
+      colaboramerica: about.colaboramerica
+    tagline:
+      exploring_the_edges: tagline.exploring_the_edges
+    button:
+      see_program: button.see_program
+    topics:
+      title: topics.title
+      work: topics.work
+      work_desc: topics.work_desc
+      blockchain: topics.blockchain
+      blockchain_desc: topics.blockchain_desc
+      opensource: topics.opensource
+      opensource_desc: topics.opensource_desc
+      tech: topics.tech
+      tech_desc: topics.tech_desc
+      colleco: topics.colleco
+      colleco_desc: topics.colleco_desc
+      organization: topics.organization
+      organization_desc: topics.organization_desc
+      body: topics.body
+      body_desc: topics.body_desc
+      tech_title: topics.tech_title
+      om_title: topics.om_title
+      om_desc: topics.om_desc
+      orgs_title: topics.orgs_title
+      orgs_desc: topics.orgs_desc
+      shareco_title: topics.shareco_title
+      shareco_desc: topics.shareco_desc
+      cf_title: topics.cf_title
+      cf_desc: topics.cf_desc
+    press:
+      title: press.title
+    zerowaste:
+      btn_text: zerowaste.btn_text
+      title: zerowaste.title
+      descr: zerowaste.descr
+    ouishare_awards:
+      title: ouishare_awards.title
+      first_part: ouishare_awards.first_part
+      see_2015_winners: ouishare_awards.see_2015_winners
+    join:
+      ready: join.ready
+    reminder_ticket:
+      getyourtickets: reminder_ticket.getyourtickets
+    goldrush:
+      title: goldrush.title
+      text1: goldrush.text1
+      text2: goldrush.text2
+      text3: goldrush.text3
+      text4: goldrush.text4
+      p1: goldrush.p1
+      p2a: goldrush.p2a
+      p2b: goldrush.p2b
+      p2c: goldrush.p2c
+      p3: goldrush.p3
+      p4: goldrush.p4
+      p5: goldrush.p5
+      p6: goldrush.p6
+    coc:
+      title: coc.title
+      1_brief: coc.1_brief
+      1_brief_text: coc.1_brief_text
+      2_purpose: coc.2_purpose
+      2_purpose_text: coc.2_purpose_text
+      3_respectful: coc.3_respectful
+      3_respectful_text: coc.3_respectful_text
+      4_inclusive_text: coc.4_inclusive_text
+      5_respectful_2: coc.5_respectful_2
+      5_respectful_2_li_1: coc.5_respectful_2_li_1
+      5_respectful_2_li_2: coc.5_respectful_2_li_2
+      6_unacceptable: coc.6_unacceptable
+      6_unacceptable_text: coc.6_unacceptable_text
+      7_resolve: coc.7_resolve
+      7_resolve_text: coc.7_resolve_text
+      7_resolve_text_2: coc.7_resolve_text_2
+      8_consequences: coc.8_consequences
+      8_consequences_text: coc.8_consequences_text
+      9_thanks: coc.9_thanks
+      9_thanks_t1: coc.9_thanks_t1
+      9_thanks_t2a: coc.9_thanks_t2a
+      9_thanks_t2b: coc.9_thanks_t2b
+      9_thanks_t2c: coc.9_thanks_t2c
+      contact: coc.contact
+    tickets:
+      entreprises: tickets.entreprises
+      entreprises_about: tickets.entreprises_about
+      entreprises_tickets: tickets.entreprises_tickets
+      event_registration_online: tickets.event_registration_online
+      for: tickets.for
+      powered_by: tickets.powered_by
+      freelancers_small_business: tickets.freelancers_small_business
+      freelancers_small_business_about: tickets.freelancers_small_business_about
+      description1: tickets.description1
+      get_involved: tickets.get_involved
+      description2: tickets.description2
+      apply_tickets_link: tickets.apply_tickets_link
+      sponsored_tickets_text2: tickets.sponsored_tickets_text2
+      title: tickets.title
+      press_media: tickets.press_media
+      who_s_coming: tickets.who_s_coming
+      show_all_attendees: tickets.show_all_attendees
+      hide_all_attendees: tickets.hide_all_attendees
+    ff:
+      title: ff.title
+      tagline: ff.tagline
+      btn_apply: ff.btn_apply
+    ff_projects:
+      title: ff_projects.title
+      ltl_desc: ff_projects.ltl_desc
+      ltl_quote: ff_projects.ltl_quote
+      ltl_author_desc: ff_projects.ltl_author_desc
+      status: ff_projects.status
+      ltl_status: ff_projects.ltl_status
+      ltl_impact: ff_projects.ltl_impact
+      ltl_challenge: ff_projects.ltl_challenge
+      partup_desc: ff_projects.partup_desc
+      partup_quote: ff_projects.partup_quote
+      partup_author_desc: ff_projects.partup_author_desc
+      partup_status: ff_projects.partup_status
+      partup_impact: ff_projects.partup_impact
+      partup_challenge: ff_projects.partup_challenge
+      s4s_desc: ff_projects.s4s_desc
+      s4s_quote: ff_projects.s4s_quote
+      s4s_author_desc: ff_projects.s4s_author_desc
+      s4s_status: ff_projects.s4s_status
+      s4s_impact: ff_projects.s4s_impact
+      s4s_challenge: ff_projects.s4s_challenge
+    ff_about:
+      subtitle: ff_about.subtitle
+      title: ff_about.title
+      p1a: ff_about.p1a
+      p1b: ff_about.p1b
+      p2a: ff_about.p2a
+      p2a_building: ff_about.p2a_building
+      p2b: ff_about.p2b
+      p2c: ff_about.p2c
+      p3a: ff_about.p3a
+      p3_apply_here: ff_about.p3_apply_here
+    ff_apply:
+      selection_criteria_impact: ff_apply.selection_criteria_impact
+      selection_criteria_challenge: ff_apply.selection_criteria_challenge
+      title: ff_apply.title
+      p2: ff_apply.p2
+      p2_requirements: ff_apply.p2_requirements
+      p2_req1: ff_apply.p2_req1
+      p2_req2: ff_apply.p2_req2
+      p1: ff_apply.p1
+      p1a: ff_apply.p1a
+      p1b: ff_apply.p1b
+      p1c: ff_apply.p1c
+      p1d: ff_apply.p1d
+      selection_criteria: ff_apply.selection_criteria
+      selection_criteria_impact_desc: ff_apply.selection_criteria_impact_desc
+      selection_criteria_replicability: ff_apply.selection_criteria_replicability
+      selection_criteria_replicability_desc: ff_apply.selection_criteria_replicability_desc
+      selection_criteria_disruption: ff_apply.selection_criteria_disruption
+      selection_criteria_disruption_desc: ff_apply.selection_criteria_disruption_desc
+      selection_criteria_viability: ff_apply.selection_criteria_viability
+      selection_criteria_viability_desc: ff_apply.selection_criteria_viability_desc
+      selection_criteria_structure: ff_apply.selection_criteria_structure
+      selection_criteria_structure_desc: ff_apply.selection_criteria_structure_desc
+      selection_criteria_team: ff_apply.selection_criteria_team
+      selection_criteria_challenge_desc: ff_apply.selection_criteria_challenge_desc
+      selection_criteria_synergy: ff_apply.selection_criteria_synergy
+      selection_criteria_values: ff_apply.selection_criteria_values
+      selection_criteria_values_desc: ff_apply.selection_criteria_values_desc
+      selection_criteria_values_link: ff_apply.selection_criteria_values_link
+      selection_criteria_program: ff_apply.selection_criteria_program
+      selection_criteria_program_desc: ff_apply.selection_criteria_program_desc
+      selection_criteria_program_link: ff_apply.selection_criteria_program_link
+      p3: ff_apply.p3
+      p4: ff_apply.p4
+      process: ff_apply.process
+      process_dl: ff_apply.process_dl
+      process_dl_link: ff_apply.process_dl_link
+      process_dl_1: ff_apply.process_dl_1
+      process_dl_1a: ff_apply.process_dl_1a
+      process_dl_1b: ff_apply.process_dl_1b
+      process_1_pre: ff_apply.process_1_pre
+      process_1_pre_dates: ff_apply.process_1_pre_dates
+      process_1_pre_desc: ff_apply.process_1_pre_desc
+      process_2_voting: ff_apply.process_2_voting
+      process_2_voting_dates: ff_apply.process_2_voting_dates
+      process_2_voting_desc: ff_apply.process_2_voting_desc
+      process_3_prep: ff_apply.process_3_prep
+      process_3_prep_dates: ff_apply.process_3_prep_dates
+      process_3_prep_desc: ff_apply.process_3_prep_desc
+      process_4_fest: ff_apply.process_4_fest
+      process_4_fest_dates: ff_apply.process_4_fest_dates
+      process_4_fest_desc: ff_apply.process_4_fest_desc
+    ff_jury:
+      title: ff_jury.title
+      p1a: ff_jury.p1a
+      p1a_connectors: ff_jury.p1a_connectors
+      p1b: ff_jury.p1b
+      p2: ff_jury.p2
+    ff_experience:
+      title: ff_experience.title
+      text: ff_experience.text
+    ff_vote:
+      title: ff_vote.title
+      jury_selected: ff_vote.jury_selected
+      lowtechlab_desc: ff_vote.lowtechlab_desc
+      now_we_invite: ff_vote.now_we_invite
+      open_soon: ff_vote.open_soon
+      vote_now: ff_vote.vote_now
+      vote_favourites: ff_vote.vote_favourites
+      thank_you: ff_vote.thank_you
+    getting_venue:
+      title: getting_venue.title
+      public_transportation: getting_venue.public_transportation
+      underground_part_one: getting_venue.underground_part_one
+      first_part: getting_venue.first_part
+      button: getting_venue.button
+    getting_venue_underground:
+      title: getting_venue_underground.title
+      link: getting_venue_underground.link
+      part_two: getting_venue_underground.part_two
+    getting_venue_bus:
+      title: getting_venue_bus.title
+      part_one: getting_venue_bus.part_one
+    getting_venue_trams:
+      title: getting_venue_trams.title
+      part_one: getting_venue_trams.part_one
+      part_two: getting_venue_trams.part_two
+    getting_venue_bike:
+      title: getting_venue_bike.title
+      part_one: getting_venue_bike.part_one
+    getting_venue_taxi:
+      title: getting_venue_taxi.title
+      part_one: getting_venue_taxi.part_one
+      link: getting_venue_taxi.link
+    getting_venue_airport:
+      title: getting_venue_airport.title
+      part_one: getting_venue_airport.part_one
+      part_two: getting_venue_airport.part_two
+      part_three: getting_venue_airport.part_three
+      part_four: getting_venue_airport.part_four
+      part_five: getting_venue_airport.part_five
+      part_six: getting_venue_airport.part_six
+      part_seven: getting_venue_airport.part_seven
+    getting_venue_car:
+      title: getting_venue_car.title
+      part_one: getting_venue_car.part_one
+      part_two: getting_venue_car.part_two
+      part_three: getting_venue_car.part_three
+      part_four: getting_venue_car.part_four
+      part_five: getting_venue_car.part_five
+      part_six: getting_venue_car.part_six
+      part_seven: getting_venue_car.part_seven
+    main:
+      title: main.title
+      subtitle: main.subtitle
+      date: main.date
+      theme: main.theme
+      subscribe_title: main.subscribe_title
+      placeholder_stay_posted: main.placeholder_stay_posted
+      stay_posted: main.stay_posted
+    readmore:
+      title: readmore.title
+    speakers:
+      title: speakers.title
+      show_all: speakers.show_all
+      hide_all: speakers.hide_all
+      see_all: speakers.see_all
+      featured: speakers.featured
+    partners:
+      title: partners.title
+      patronage_mairie: partners.patronage_mairie
+      media_partner_title: partners.media_partner_title
+      friends_title: partners.friends_title
+      supporters_title: partners.supporters_title
+      button: partners.button
+    tickets_table:
+      pioneers: tickets_table.pioneers
+      explorers: tickets_table.explorers
+      hackers: tickets_table.hackers
+      core_features: tickets_table.core_features
+      core_1_access: tickets_table.core_1_access
+      core_2_food: tickets_table.core_2_food
+      core_3_partner_events: tickets_table.core_3_partner_events
+      core_4_access_party: tickets_table.core_4_access_party
+      core_5_participants_list: tickets_table.core_5_participants_list
+      extended_features: tickets_table.extended_features
+      ext_3_webinar: tickets_table.ext_3_webinar
+      ext_1_reception: tickets_table.ext_1_reception
+      ext_welcoming: tickets_table.ext_welcoming
+      ext_matchmaking: tickets_table.ext_matchmaking
+      ext_advice: tickets_table.ext_advice
+      ext_4_book: tickets_table.ext_4_book
+      ext_4_book_title: tickets_table.ext_4_book_title
+      questions: tickets_table.questions
+    tickets_price:
+      pioneers_3d: tickets_price.pioneers_3d
+      pioneers_1d: tickets_price.pioneers_1d
+      explorers_3d: tickets_price.explorers_3d
+      explorers_1d: tickets_price.explorers_1d
+      hackers_3d: tickets_price.hackers_3d
+      hackers_1d: tickets_price.hackers_1d
+    get_involved:
+      title: get_involved.title
+      description: get_involved.description
+      program_call_txt: get_involved.program_call_txt
+      program_call_btn: get_involved.program_call_btn
+      volunteers_join_txt: get_involved.volunteers_join_txt
+      volunteers_apply_btn: get_involved.volunteers_apply_btn
+      volunteers_join_btn: get_involved.volunteers_join_btn
+      awards_apply_txt: get_involved.awards_apply_txt
+      awards_apply_btn: get_involved.awards_apply_btn
+      awards_vote_txt: get_involved.awards_vote_txt
+      awards_vote_btn: get_involved.awards_vote_btn
+      partners_txt: get_involved.partners_txt
+      partners_btn: get_involved.partners_btn
+    press_media:
+      request: press_media.request
+      download: press_media.download
+    prepare_your_trip:
+      title: prepare_your_trip.title
+      baseline: prepare_your_trip.baseline
+      description: prepare_your_trip.description
+    travel_information:
+      title: travel_information.title
+      text: travel_information.text
+      button: travel_information.button
+      ridesharing:
+        title: travel_information.ridesharing.title
+      carsharing:
+        part_two: travel_information.carsharing.part_two
+      train:
+        part_three: travel_information.train.part_three
+      coaches:
+        part_two: travel_information.coaches.part_two
+      fly:
+        part_one: travel_information.fly.part_one
+    where_to_stay:
+      title: where_to_stay.title
+      first_part: where_to_stay.first_part
+      link: where_to_stay.link
+      second_part: where_to_stay.second_part
+      button: where_to_stay.button
+    love_party:
+      title: love_party.title
+      time: love_party.time
+      text: love_party.text
+      see_lineup: love_party.see_lineup
+    love:
+      cabaret_sauvage: love.cabaret_sauvage
+      time: love.time
+      intro1: love.intro1
+      intro2: love.intro2
+      get_ready: love.get_ready
+      doors: love.doors
+      livestream: love.livestream
+      lineup_title: love.lineup_title
+      tampon_tango_desc: love.tampon_tango_desc
+      facebook: love.facebook
+      listen: love.listen
+      radio_meuh_desc: love.radio_meuh_desc
+      website: love.website
+      le_limonadier_desc: love.le_limonadier_desc
+      more_info: love.more_info
+      location: love.location
+      price: love.price
+      tickets: love.tickets
+    ouishare-news:
+      title: ouishare-news.title
+    news:
+      see_all: news.see_all
+    video:
+      section_title: video.section_title
+      snapshots: video.snapshots
+      see_all: video.see_all
+    radio:
+      title: radio.title
+      listen: radio.listen
+    stories:
+      title: stories.title
+      read: stories.read
+    openday:
+      hours: openday.hours
+      about: openday.about
+      time_action: openday.time_action
+      about_2: openday.about_2
+      parcours_orange_title: openday.parcours_orange_title
+      parcours_orange: openday.parcours_orange
+      parcours_vert_title: openday.parcours_vert_title
+      parcours_vert: openday.parcours_vert
+      parcours_violet_title: openday.parcours_violet_title
+      parcours_violet: openday.parcours_violet
+      parcours_jaune_title: openday.parcours_jaune_title
+      parcours_jaune: openday.parcours_jaune
+      parcours_bleu_title: openday.parcours_bleu_title
+      parcours_bleu: openday.parcours_bleu
+      register: openday.register
+      download_program: openday.download_program
+      partners_title: openday.partners_title
+      community_title: openday.community_title
+      see_program: openday.see_program
+    speakers_attendees:
+      title: Speakers
+    team:
+      title: team.title
+      show_all: team.show_all
+      hide_all: team.hide_all
+    program:
+      curators: program.curators
+      text: program.text
+    main_schedule:
+      title: main_schedule.title
+      program_structure: main_schedule.program_structure
+    program_structure:
+      text_a: program_structure.text_a
+      text_b: program_structure.text_b
+      text_c: program_structure.text_c
+      day_1: program_structure.day_1
+      day_1_question: program_structure.day_1_question
+      states_title: program_structure.states_title
+      states_question: program_structure.states_question
+      blockchain_title: program_structure.blockchain_title
+      blockchain_question: program_structure.blockchain_question
+      day_2: program_structure.day_2
+      day_2_question: program_structure.day_2_question
+      business_title: program_structure.business_title
+      business_question: program_structure.business_question
+      governance_title: program_structure.governance_title
+      governance_question: program_structure.governance_question
+      day_3: program_structure.day_3
+      day_3_question: program_structure.day_3_question
+      work_title: program_structure.work_title
+      work_question: program_structure.work_question
+      education_title: program_structure.education_title
+      education_question: program_structure.education_question
+      public_day: program_structure.public_day
+    satellite_events:
+      title: satellite_events.title
+      text: satellite_events.text
+    ridesharing:
+      text1: ridesharing.text1
+    where_to_stay_P2P:
+      title: where_to_stay_P2P.title
+      part_one: where_to_stay_P2P.part_one
+      link: where_to_stay_P2P.link
+      part_two: where_to_stay_P2P.part_two
+    where_to_stay_home_swapping:
+      title: where_to_stay_home_swapping.title
+      part_one: where_to_stay_home_swapping.part_one
+    where_to_stay_hotels:
+      title: where_to_stay_hotels.title
+      part_one: where_to_stay_hotels.part_one
+      generator_discount: where_to_stay_hotels.generator_discount
+    zerowaste_what:
+      title: zerowaste_what.title
+      text1: zerowaste_what.text1
+      text2: zerowaste_what.text2
+    zerowaste_why:
+      title: zerowaste_why.title
+      text1: zerowaste_why.text1
+      text2: zerowaste_why.text2
+    zerowaste_examples:
+      title: zerowaste_examples.title
+      toilets: zerowaste_examples.toilets
+      toilets_text: zerowaste_examples.toilets_text
+      3_subtitle: zerowaste_examples.3_subtitle
+      3_text: zerowaste_examples.3_text
+      ouikit_text2: zerowaste_examples.ouikit_text2
+      leftovers: zerowaste_examples.leftovers
+      leftovers_text: zerowaste_examples.leftovers_text
+      leftovers_nowherekitchen: zerowaste_examples.leftovers_nowherekitchen
+      leftovers_freeganpony: zerowaste_examples.leftovers_freeganpony
+      leftovers_toogoodtogo: zerowaste_examples.leftovers_toogoodtogo
+      banners: zerowaste_examples.banners
+      banners_text: zerowaste_examples.banners_text
+      plastic: zerowaste_examples.plastic
+      plastic_precious: zerowaste_examples.plastic_precious
+      plastic_text: zerowaste_examples.plastic_text
+      pdf: zerowaste_examples.pdf
+      pdf_text: zerowaste_examples.pdf_text
+      pdf_link: zerowaste_examples.pdf_link
+      zwetk: zerowaste_examples.zwetk
+      zwetk_text: zerowaste_examples.zwetk_text
+      zwetk_text2: zerowaste_examples.zwetk_text2
+      stakeholder: zerowaste_examples.stakeholder
+      stakeholder_text: zerowaste_examples.stakeholder_text
+    zerowaste_help:
+      title: zerowaste_help.title
+      text: zerowaste_help.text
+      contact: zerowaste_help.contact
+    zerowaste_more:
+      text: zerowaste_more.text
+      btn: zerowaste_more.btn
+    footer:
+      subscribe_newsletter: footer.subscribe_newsletter
+      open_source_fest: footer.open_source_fest
+      contact: footer.contact
+      general_questions: footer.general_questions
+      volunteers: footer.volunteers
+      partners_sponsors: footer.partners_sponsors
+      press: footer.press
+      download_press_kit: footer.download_press_kit
+      press_contact: footer.press_contact
+    key_topics:
+      title: key_topics.title
+
