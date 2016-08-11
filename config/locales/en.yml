@@ -46,6 +46,8 @@ en:
       friends_title: Friends
       media_partner_title: Media partners
       supporters_title: Supporters
+    institutional_partners:
+      title: Institutional Partners
     report:
       title: Report
       link: View full report

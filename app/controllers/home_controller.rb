@@ -53,12 +53,12 @@ class HomeController < ApplicationController
       @patronage = IndividualType.find_by_title('Patronage').get_members
     end
 
-    eventbrite_instance = connect_to_eventbrite()
-    begin
-      @ouishare_fest_attendees = eventbrite_instance.event_list_attendees({ "id" => ENV["EVENTBRITE_EVENT_ID"] })
-    rescue
-      @ouishare_fest_attendees = nil
-    end
+    # eventbrite_instance = connect_to_eventbrite()
+    # begin
+    #   @ouishare_fest_attendees = eventbrite_instance.event_list_attendees({ "id" => ENV["EVENTBRITE_EVENT_ID"] })
+    # rescue
+    #   @ouishare_fest_attendees = nil
+    # end
 
   end
 
@@ -134,21 +134,27 @@ class HomeController < ApplicationController
       end
     end
 
-    if IndividualType.find_by_title('Partners')      
+    if IndividualType.find_by_title('Sponsors')
+      @sponsors = IndividualType.find_by_title('Sponsors').get_members
+    end
+    if IndividualType.find_by_title('Partners')
       @partners = IndividualType.find_by_title('Partners').get_members
     end
-    if IndividualType.find_by_title('Friends')      
-      @friends = IndividualType.find_by_title('Friends').get_members
+    if IndividualType.find_by_title('Institutional Partners')
+      @institutional_partners = IndividualType.find_by_title('Institutional Partners').get_members
     end
-    if IndividualType.find_by_title('Media Partners')      
-      @media_partners = IndividualType.find_by_title('Media Partners').get_members
-    end
-    if IndividualType.find_by_title('Supporters')      
-      @supporters = IndividualType.find_by_title('Supporters').get_members
-    end
-    if IndividualType.find_by_title('Patronage')      
-      @patronage = IndividualType.find_by_title('Patronage').get_members
-    end
+    # if IndividualType.find_by_title('Friends')      
+    #   @friends = IndividualType.find_by_title('Friends').get_members
+    # end
+    # if IndividualType.find_by_title('Media Partners')      
+    #   @media_partners = IndividualType.find_by_title('Media Partners').get_members
+    # end
+    # if IndividualType.find_by_title('Supporters')      
+    #   @supporters = IndividualType.find_by_title('Supporters').get_members
+    # end
+    # if IndividualType.find_by_title('Patronage')      
+    #   @patronage = IndividualType.find_by_title('Patronage').get_members
+    # end
 
   
   end
