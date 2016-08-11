@@ -1,4 +1,5 @@
 class Translation < ActiveRecord::Base
+  attr_accessor :interpolations, :is_proc, :key, :locale, :value
   attr_accessible :interpolations, :is_proc, :key, :locale, :value
 
   # after_save :export_to_yaml

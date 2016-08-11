@@ -1,0 +1,928 @@
+speakers__title:
+  locale: en
+  key: dynamic_translations.speakers.title
+  value: Contributors
+  is_proc: false
+  created_at: '2014-03-25 18:19:51.420157'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+about__title:
+  locale: en
+  key: dynamic_translations.about.title
+  value: About
+  is_proc: false
+  created_at: '2014-01-14 11:43:53.347731'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main__event:
+  locale: en
+  key: dynamic_translations.main.event
+  value: Paris. May 20-22 at Cabaret Sauvage
+  is_proc: false
+  created_at: '2014-10-06 09:16:24.269'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main__title:
+  locale: en
+  key: dynamic_translations.main.title
+  value: The Age of Communities
+  is_proc: false
+  created_at: '2014-01-10 11:41:44.452152'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+about__description:
+  locale: en
+  key: dynamic_translations.about.description
+  value: OuiShare Fest is a three-day festival that brings together 1000 actors from the collaborative economy in Paris each year.
+  is_proc: false
+  created_at: '2014-06-24 09:26:08.96522'
+  updated_at: '2014-06-24 09:26:08.96522'
+
+what_is_community_text1:
+  locale: en
+  key: dynamic_translations.what_is_community.text1
+  value: Connected by shared values, knowledge, resources or by digital and physical spaces, communities are transforming cities, organizations and civic action everywhere in the world. They are driving movements such as collaborative consumption, open source, makers and fablabs, coworking, crowdfunding, alternative currencies and more. How do these pieces fit together? What is the bigger picture?..
+  is_proc: false
+  created_at: '2014-01-06 13:20:53.984047'
+  updated_at: '2014-10-15 15:13:16.791135'
+
+what_is_community__text2:
+  locale: en
+  key: dynamic_translations.what_is_community.text2
+  value: OuiShare Fest gathers entrepreneurs and social innovators, non-profit and business leaders, grassroots activists and public officials in one place to build a common vision of a collaborative society.
+  is_proc: false
+  created_at: '2014-06-24 09:26:41.800086'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+what_is_community__text3:
+  locale: en
+  key: dynamic_translations.what_is_community.text3
+  value: If you are ready for a unique experience which will produce knowledge, accelerate projects and foster new collaborations, then join us in Paris for our next edition.
+  is_proc: false
+  created_at: '2014-06-24 09:26:55.348538'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+speakers__show_all:
+  locale: en
+  key: dynamic_translations.speakers.show_all
+  value: Show all the speakers
+  is_proc: false
+  created_at: '2014-01-06 13:27:55.667801'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__title:
+  locale: en
+  key: dynamic_translations.partners.title
+  value: Partners
+  is_proc: false
+  created_at: '2014-01-06 13:28:45.384032'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__become_a_partner:
+  locale: en
+  key: dynamic_translations.partners.become_a_partner
+  value: If you would like to become a partner, please contact us at
+  is_proc: false
+  created_at: '2014-01-06 13:29:39.771291'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__title:
+  locale: en
+  key: dynamic_translations.get_involved.title
+  value: Get Involved
+  is_proc: false
+  created_at: '2014-01-09 14:30:17.212916'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__description:
+  locale: en
+  key: dynamic_translations.get_involved.description
+  value: "As the next OuiShare Fest comes closer, there will be many ways you can get involved in its organization or participate as a partner. \r\nVolunteer applications and our open call for contributions to the program will open soon. "
+  is_proc: false
+  created_at: '2014-10-15 16:32:15.6912'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__option_1:
+  locale: en
+  key: dynamic_translations.get_involved.option_1
+  value: We invite you to organize OuiShare Fest satellite events in Paris for the evenings of day 1 and 2 , or where ever you like in the world! Just fill out the form below and we'll get in touch!
+  is_proc: false
+  created_at: '2014-02-27 11:21:09.202257'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__option_2:
+  locale: en
+  key: dynamic_translations.get_involved.option_2
+  value: 'We''d love you to join the OuiShare Fest team as a volunteer before or during the event! Just fill out the form below and tell us how you would like to help. '
+  is_proc: false
+  created_at: '2014-01-14 14:36:06.701368'
+  updated_at: '2014-04-24 13:34:45.765145'
+
+get_involved_option_3:
+  locale: en
+  key: dynamic_translations.get_involved.option_3
+  value: 'Now it is your turn to evaluate emerging initiatives of the Collaborative Economy: watch the intro videos on the OuiShare Awards website and vote for your favorite!'
+  is_proc: false
+  created_at: '2014-01-06 13:32:26.834696'
+  updated_at: '2014-05-02 17:12:30.592428'
+
+links__title:
+  locale: en
+  key: dynamic_translations.links.title
+  value: Links
+  is_proc: false
+  created_at: '2014-01-06 13:33:49.346612'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+link__sample_link:
+  locale: en
+  key: dynamic_translations.link.sample_link
+  value: Sample link
+  is_proc: false
+  created_at: '2014-01-06 13:34:10.70649'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__title:
+  locale: en
+  key: dynamic_translations.tickets.title
+  value: BUY TICKETS
+  is_proc: false
+  created_at: '2014-03-25 17:33:36.197914'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__description:
+  locale: en
+  key: dynamic_translations.tickets.description
+  value: We would like to create an event that anyone can join. There are many ways you can receive a free ticket, from contributing to the festival by co-creating a session, to becoming a volunteer or team member. If you are unable to contribute to the event organization,
+  is_proc: false
+  created_at: '2014-01-06 13:35:19.958848'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__apply_tickets_link:
+  locale: en
+  key: dynamic_translations.tickets.apply_tickets_link
+  value: Apply for hacker and sponsored tickets.
+  is_proc: false
+  created_at: '2014-10-15 16:22:58.498945'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__who_s_coming:
+  locale: en
+  key: dynamic_translations.tickets.who_s_coming
+  value: Who's already coming
+  is_proc: false
+  created_at: '2014-01-06 13:36:31.220788'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__show_all_attendees:
+  locale: en
+  key: dynamic_translations.tickets.show_all_attendees
+  value: Show all the attendees
+  is_proc: false
+  created_at: '2014-01-06 13:37:09.976699'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+team__title:
+  locale: en
+  key: dynamic_translations.team.title
+  value: Team
+  is_proc: false
+  created_at: '2014-01-06 13:37:31.339687'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+team__description:
+  locale: en
+  key: dynamic_translations.team.description
+  value: OuiShare is a global network empowering citizens, public institutions and companies to build a society in which every person has access to the resources and opportunities they need to thrive. We believe that an economy based on sharing, collaboration and openness can solve many of the complex challenges the world faces.
+  is_proc: false
+  created_at: '2014-01-13 08:17:01.026836'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__general_questions:
+  locale: en
+  key: dynamic_translations.footer.general_questions
+  value: 'General questions:'
+  is_proc: false
+  created_at: '2014-01-06 13:39:40.035164'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__volunteers:
+  locale: en
+  key: dynamic_translations.footer.volunteers
+  value: 'Volunteers:'
+  is_proc: false
+  created_at: '2014-01-06 13:40:02.310225'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__partners_sponsors:
+  locale: en
+  key: dynamic_translations.footer.partners_sponsors
+  value: 'Partners  Sponsors:'
+  is_proc: false
+  created_at: '2014-01-06 13:40:27.193161'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__press:
+  locale: en
+  key: dynamic_translations.footer.press
+  value: Press
+  is_proc: false
+  created_at: '2014-01-06 13:41:16.335321'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__location:
+  locale: en
+  key: dynamic_translations.footer.location
+  value: A magical location
+  is_proc: false
+  created_at: '2014-03-21 16:22:57.907539'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__contact:
+  locale: en
+  key: dynamic_translations.footer.contact
+  value: Contact
+  is_proc: false
+  created_at: '2014-01-10 16:44:39.405373'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__download_press_kit:
+  locale: en
+  key: dynamic_translations.footer.download_press_kit
+  value: Download press kit
+  is_proc: false
+  created_at: '2014-01-06 13:44:42.031953'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+footer__press_contact:
+  locale: en
+  key: dynamic_translations.footer.press_contact
+  value: 'For a press pass, please send an email to '
+  is_proc: false
+  created_at: '2014-01-20 16:25:51.095545'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+blog__title:
+  locale: en
+  key: dynamic_translations.blog.title
+  value: Blog
+  is_proc: false
+  created_at: '2014-01-06 13:48:52.590569'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+speakers__hide_all:
+  locale: en
+  key: dynamic_translations.speakers.hide_all
+  value: Hide speakers
+  is_proc: false
+  created_at: '2014-01-10 11:13:43.019602'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__call_for_proposal:
+  locale: en
+  key: dynamic_translations.get_involved.call_for_proposal
+  value: Would you like to join the project?
+  is_proc: false
+  created_at: '2014-06-26 21:15:35.438586'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__submit:
+  locale: en
+  key: dynamic_translations.get_involved.submit
+  value: Join the Fest team
+  is_proc: false
+  created_at: '2014-06-26 21:20:10.956814'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__join_the_team:
+  locale: en
+  key: dynamic_translations.get_involved.join_the_team
+  value: Join the team
+  is_proc: false
+  created_at: '2014-01-10 11:15:04.705302'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__join:
+  locale: en
+  key: dynamic_translations.get_involved.join
+  value: Join
+  is_proc: false
+  created_at: '2014-01-10 11:15:15.849452'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__event_registration_online:
+  locale: en
+  key: dynamic_translations.tickets.event_registration_online
+  value: Event registration online
+  is_proc: false
+  created_at: '2014-01-10 11:17:12.930677'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__for:
+  locale: en
+  key: dynamic_translations.tickets.for
+  value: for
+  is_proc: false
+  created_at: '2014-01-10 11:17:28.319127'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__powered_by:
+  locale: en
+  key: dynamic_translations.tickets.powered_by
+  value: Powered by
+  is_proc: false
+  created_at: '2014-01-10 11:18:04.19586'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__hide_all_attendees:
+  locale: en
+  key: dynamic_translations.tickets.hide_all_attendees
+  value: Hide attendees
+  is_proc: false
+  created_at: '2014-01-10 11:18:58.660795'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__friends_title:
+  locale: en
+  key: dynamic_translations.partners.friends_title
+  value: Friends
+  is_proc: false
+  created_at: '2014-01-10 11:19:18.272904'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__media_partner_title:
+  locale: en
+  key: dynamic_translations.partners.media_partner_title
+  value: Media partners
+  is_proc: false
+  created_at: '2014-01-10 11:19:37.332058'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+team__show_all:
+  locale: en
+  key: dynamic_translations.team.show_all
+  value: Show all
+  is_proc: false
+  created_at: '2014-01-10 11:20:22.412714'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+team__hide_all:
+  locale: en
+  key: dynamic_translations.team.hide_all
+  value: Hide team members
+  is_proc: false
+  created_at: '2014-01-10 11:20:39.628683'
+  updated_at: '2014-01-10 11:20:39.628683'
+
+about_subtitle:
+  locale: en
+  key: dynamic_translations.about.subtitle
+  value: 1000 collaborative economy visionaries, coming together for three days of conference, co-creating and connecting.
+  is_proc: false
+  created_at: '2014-01-14 08:35:00.942394'
+  updated_at: '2014-01-14 14:20:19.9469'
+
+tickets__sponsored_tickets_text2:
+  locale: en
+  key: dynamic_translations.tickets.sponsored_tickets_text2
+  value: Ticket prices include breakfast and lunch on all three days, as well as dinner and access to the OuiShare party on the 3rd day. Vegetarian and Vegan food options are available.
+  is_proc: false
+  created_at: '2014-10-15 16:27:32.154665'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__idea_wall:
+  locale: en
+  key: dynamic_translations.get_involved.idea_wall
+  value: Would like to join the Fest as a company or organization?
+  is_proc: false
+  created_at: '2014-06-26 21:18:42.732103'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__idea_wall_button:
+  locale: en
+  key: dynamic_translations.get_involved.idea_wall_button
+  value: Become a Fest partner
+  is_proc: false
+  created_at: '2014-06-26 21:20:29.321874'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main__subtitle:
+  locale: en
+  key: dynamic_translations.main.subtitle
+  value: A three-day festival about the collaborative economy
+  is_proc: false
+  created_at: '2014-01-28 08:42:40.73429'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+involve_popup__line1:
+  locale: en
+  key: dynamic_translations.involve_popup.line1
+  value: You have ideas for the OuiShare Fest program or would like to propose a session?
+  is_proc: false
+  created_at: '2014-02-11 14:12:12.630658'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+involve_popup__line2:
+  locale: en
+  key: dynamic_translations.involve_popup.line2
+  value: You have till February 24th to submit them to our
+  is_proc: false
+  created_at: '2014-02-11 14:12:28.936304'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+involve_popup__callforproposals:
+  locale: en
+  key: dynamic_translations.involve_popup.callforproposals
+  value: call for proposals
+  is_proc: false
+  created_at: '2014-02-11 14:12:57.597703'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+involve_popup__close:
+  locale: en
+  key: dynamic_translations.involve_popup.close
+  value: Close
+  is_proc: false
+  created_at: '2014-02-11 14:21:44.255451'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+reminder_ticket__line1:
+  locale: en
+  key: dynamic_translations.reminder_ticket.line1
+  value: 'Reminder: early bird ticket sales end this Sunday, March 2nd! '
+  is_proc: false
+  created_at: '2014-02-25 17:11:55.803941'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+reminder_ticket__getyourtickets:
+  locale: en
+  key: dynamic_translations.reminder_ticket.getyourtickets
+  value: Get your tickets
+  is_proc: false
+  created_at: '2014-02-25 17:12:22.415104'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__title:
+  locale: en
+  key: dynamic_translations.highlight.title
+  value: Highlights from 2014
+  is_proc: false
+  created_at: '2014-06-26 21:12:58.512355'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__description:
+  locale: en
+  key: dynamic_translations.highlight.description
+  value: In its first edition, OuiShare Fest brought together 700 attendees from 24 countries for a two-day conference-style event, followed by an open day featuring various collaborative economy initiatives with over 3000 visitors. Building on the success of our experiment in program co-design during this edition, we are taking this participative approach to the next level this year. To get a better impression of what OuiShare Fest is all about,
+  is_proc: false
+  created_at: '2014-02-26 15:53:58.417689'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__btn_watch_all_sessions:
+  locale: en
+  key: dynamic_translations.highlight.btn_watch_all_sessions
+  value: Watch all sessions from 2013
+  is_proc: false
+  created_at: '2014-02-26 15:54:15.986335'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__btn_see_coverage:
+  locale: en
+  key: dynamic_translations.highlight.btn_see_coverage
+  value: See 2013 coverage
+  is_proc: false
+  created_at: '2014-02-26 15:54:30.127353'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+location__title:
+  locale: en
+  key: dynamic_translations.location.title
+  value: A Magical Location
+  is_proc: false
+  created_at: '2014-02-26 15:54:43.225438'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+location__description:
+  locale: en
+  key: dynamic_translations.location.description
+  value: 'We look forward to welcoming you at the Cabaret Sauvage in northeastern Paris: a magical venue with a circus-like hall, located by the canal in the Parc de la Villette. '
+  is_proc: false
+  created_at: '2014-02-26 15:54:59.996471'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+press__title:
+  locale: en
+  key: dynamic_translations.press.title
+  value: What The Press Says
+  is_proc: false
+  created_at: '2014-07-15 22:03:03.483055'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+testimonials__title:
+  locale: en
+  key: dynamic_translations.testimonials.title
+  value: Testimonials
+  is_proc: false
+  created_at: '2014-02-26 15:55:38.704467'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+testimonials__hansschoenburg:
+  locale: en
+  key: dynamic_translations.testimonials.hansschoenburg
+  value: OuiShare Fest 2013 was a great opportunity to connect in real life with people from so many different countries and backgrounds involved in the collaborative economy
+  is_proc: false
+  created_at: '2014-02-26 15:55:58.67618'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+testimonials__albertobandolini:
+  locale: en
+  key: dynamic_translations.testimonials.albertobandolini
+  value: Coming to OuiShare Fest gave me many good ideas on of how to interact with my customers
+  is_proc: false
+  created_at: '2014-02-26 15:56:13.004651'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+testimonials__michelbauwens:
+  locale: en
+  key: dynamic_translations.testimonials.michelbauwens
+  value: If you want to meet the pioneers making this peer-to-peer revolution happen, you can't miss OuiShare Fest, the gathering of social hackers that are profoundly changing the way we create and share value
+  is_proc: false
+  created_at: '2014-02-26 15:56:29.167258'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+press__press_coverage:
+  locale: en
+  key: dynamic_translations.press.press_coverage
+  value: Press Coverage
+  is_proc: false
+  created_at: '2014-02-26 16:08:47.64064'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+about__the_event:
+  locale: en
+  key: dynamic_translations.about.the_event
+  value: About the event
+  is_proc: false
+  created_at: '2014-03-21 16:22:31.372407'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+readmore__title:
+  locale: en
+  key: dynamic_translations.readmore.title
+  value: Read more
+  is_proc: false
+  created_at: '2014-03-27 08:54:45.855069'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__supporters_title:
+  locale: en
+  key: dynamic_translations.partners.supporters_title
+  value: Supporters
+  is_proc: false
+  created_at: '2014-03-28 09:39:17.927843'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+sharing_fair__title:
+  locale: en
+  key: dynamic_translations.sharing_fair.title
+  value: Sharing Fair
+  is_proc: false
+  created_at: '2014-04-03 14:44:12.575485'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+sharing_fair__text:
+  locale: en
+  key: dynamic_translations.sharing_fair.text
+  value: During afternoon of May 7th, we invite the public to join our Sharing Fair to meet and connect with the collaborative economy’s most innovative projects and OuiShare members from around the globe! And if you are looking for your dream job, you will have the opportunity to participate in speed recruiting sessions with your favorite companies and projects!
+  is_proc: false
+  created_at: '2014-04-08 10:44:33.017233'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__register_for_free:
+  locale: en
+  key: dynamic_translations.tickets.register_for_free
+  value: Register for free
+  is_proc: false
+  created_at: '2014-04-03 14:44:58.357905'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main_schedule__first_part:
+  locale: en
+  key: dynamic_translations.main_schedule.first_part
+  value: The OuiShare Fest program is being co-created with our community based on over 150 submissions to our open call for proposals. You can see all confirmed sessions below, but the program will grow and evolve till the day the festival begins.
+  is_proc: false
+  created_at: '2014-04-15 15:59:40.658915'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+ouishare_awards__link:
+  locale: en
+  key: dynamic_translations.ouishare_awards.link
+  value: See 2014 Winners
+  is_proc: false
+  created_at: '2014-06-26 21:21:11.580594'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+love_party__see_lineup:
+  locale: en
+  key: dynamic_translations.love_party.see_lineup
+  value: See the lineup
+  is_proc: false
+  created_at: '2014-04-24 13:34:24.627805'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+love_party__text:
+  locale: en
+  key: dynamic_translations.love_party.text
+  value: To bring OuiShare Fest to a close, join us on May 7th for an all-night long party at our magical event venue, the Cabaret Sauvage.
+  is_proc: false
+  created_at: '2014-04-24 13:34:35.092419'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+love_party__title:
+  locale: en
+  key: dynamic_translations.love_party.title
+  value: OuiShare Love Party
+  is_proc: false
+  created_at: '2014-04-24 13:34:45.765145'
+  updated_at: '2014-04-24 13:34:45.765145'
+
+tooltip__castorama:
+  locale: en
+  key: dynamic_translations.tooltip.castorama
+  value: "Acteur historique du DIY, Castorama s’engage dans la consommation collaborative, le partage et le mouvement des makers, pour se renouveler en profondeur et construire demain avec les bricoleurs.\r\nC’est parce qu’un distributeur comme Castorama est aux premières loges des changements de société, qu’il s’est saisi des sujet de la consommation collaborative et des makers, évolution logique d’une communauté ancienne\r\nque Castorama connaît depuis bientôt 45 ans, celle des bricoleurs. C’est pourquoi Castorama a souhaité s’associer\r\nau OuiShare Fest et à sa Factory, pour accompagner la communauté des makers afin de mieux comprendre leurs\r\nattentes et de construire, ensemble, les objets de demain."
+  is_proc: false
+  created_at: '2014-04-29 14:35:37.372669'
+  updated_at: '2014-04-29 14:35:37.372669'
+
+tooltip__laposte:
+  locale: en
+  key: dynamic_translations.tooltip.laposte
+  value: 'La Poste is structured around five business units: Mail-Parcels-Home Services, La Banque Postale, The Network La Poste, GeoPost and Digital. The Group operates out of 40 countries. La Poste has a network of 17,000 retail outlets in France and delivers 25 million items worldwide each year. La Poste puts human considerations and trust at the centre of customer relations. Greater synergies between its networks, accessible to everyone, everywhere, every day, are helping to make life easier for La Poste’s customers. Those common roots have easily brought together La Poste and the sharing economy.'
+  is_proc: false
+  created_at: '2014-04-29 14:36:36.714417'
+  updated_at: '2014-04-24 13:34:45.765145'
+
+tooltip__orange:
+  locale: en
+  key: dynamic_translations.tooltip.orange
+  value: "Operating in 30 countries, the Orange Group serves over 236 million customers, including 178 million mobile\r\ncustomers and 15 million high speed fixed line customers worldwide. As such, the Group has a major role to play in\r\naccelerating the spread of the digital transformation and supporting innovations that encourage economic, social, environmental progress. Because Orange believes that the digital resources can support the emerging of new, more responsible, more cooperative and fairer economic models, it strives to support initiatives that help to accelerate this shift."
+  is_proc: false
+  created_at: '2014-04-29 14:37:23.091806'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main__follow_event:
+  locale: en
+  key: dynamic_translations.main.follow_event
+  value: Follow the event live
+  is_proc: false
+  created_at: '2014-05-04 13:14:42.924843'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main__live:
+  locale: en
+  key: dynamic_translations.main.live
+  value: Live!
+  is_proc: false
+  created_at: '2014-05-04 15:37:17.778623'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+live_reporting__title:
+  locale: en
+  key: dynamic_translations.live_reporting.title
+  value: Live from OuiShare Fest 2014
+  is_proc: false
+  created_at: '2014-05-04 22:30:37.747316'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+live_reporting__paragraph:
+  locale: en
+  key: dynamic_translations.live_reporting.paragraph
+  value: See what's happening now
+  is_proc: false
+  created_at: '2014-05-04 22:30:45.46079'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+live_reporting__stories:
+  locale: en
+  key: dynamic_translations.live_reporting.stories
+  value: Stories
+  is_proc: false
+  created_at: '2014-05-04 22:31:16.121356'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+live_reporting__listen:
+  locale: en
+  key: dynamic_translations.live_reporting.listen
+  value: Listen
+  is_proc: false
+  created_at: '2014-05-04 22:31:26.327244'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+fest2014__title:
+  locale: en
+  key: dynamic_translations.fest2014.title
+  value: Fest 2014
+  is_proc: false
+  created_at: '2014-06-24 09:19:41.955099'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__title_simple:
+  locale: en
+  key: dynamic_translations.highlight.title_simple
+  value: Highlights
+  is_proc: false
+  created_at: '2014-07-15 21:52:42.036551'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+coverage__title:
+  locale: en
+  key: dynamic_translations.coverage.title
+  value: Coverage
+  is_proc: false
+  created_at: '2014-06-24 09:21:34.366126'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+2014program__title:
+  locale: en
+  key: dynamic_translations.2014program.title
+  value: 2014 Program
+  is_proc: false
+  created_at: '2014-09-26 12:59:32.067774'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+stayposted__title:
+  locale: en
+  key: dynamic_translations.stayposted.title
+  value: Stay posted
+  is_proc: false
+  created_at: '2014-06-24 09:23:19.889814'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main__placeholder_stay_posted:
+  locale: en
+  key: dynamic_translations.main.placeholder_stay_posted
+  value: Write your email here
+  is_proc: false
+  created_at: '2014-06-24 09:24:39.349347'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+main__stay_posted:
+  locale: en
+  key: dynamic_translations.main.stay_posted
+  value: Stay posted
+  is_proc: false
+  created_at: '2014-06-24 09:24:51.249989'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__see_video_2014:
+  locale: en
+  key: dynamic_translations.highlight.see_video_2014
+  value: See videos from 2014 sessions
+  is_proc: false
+  created_at: '2014-06-24 09:25:25.029533'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__description_2014:
+  locale: en
+  key: dynamic_translations.highlight.description_2014
+  value: In its second edition, OuiShare Fest brought together 1000 participants from 30 countries for a three-day conference-style event, which was co-designed with over 140 contributors.
+  is_proc: false
+  created_at: '2014-06-24 09:27:53.835808'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__btn_watch_2014_sessions:
+  locale: en
+  key: dynamic_translations.highlight.btn_watch_2014_sessions
+  value: Watch 2014 sessions
+  is_proc: false
+  created_at: '2014-06-24 09:28:24.155831'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+highlight__btn_see_2014_stories:
+  locale: en
+  key: dynamic_translations.highlight.btn_see_2014_stories
+  value: See 2014 stories
+  is_proc: false
+  created_at: '2014-06-24 09:28:48.725707'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+stayposted__subtitle:
+  locale: en
+  key: dynamic_translations.stayposted.subtitle
+  value: Interested in OuiShare Fest 2015?
+  is_proc: false
+  created_at: '2014-06-26 21:50:29.737785'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+ouishare_awards__first_part:
+  locale: en
+  key: dynamic_translations.ouishare_awards.first_part
+  value: The OuiShare Awards put exceptional collaborative economy initiatives from across the globe in the spotlight and provide them with support to develop further. Applications for the next round of the OuiShare Awards will be opened in early 2015.
+  is_proc: false
+  created_at: '2014-06-24 09:32:17.970769'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+stayposted__subtitle2:
+  locale: en
+  key: dynamic_translations.stayposted.subtitle2
+  value: Sign-up for updates below and you’ll be the first to know when early bird ticket sales open!
+  is_proc: false
+  created_at: '2014-06-26 21:49:24.181132'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+coverage__2014title:
+  locale: en
+  key: dynamic_translations.coverage.2014title
+  value: 2014 Coverage
+  is_proc: false
+  created_at: '2014-07-21 15:40:57.473051'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+live_reporting__2014stories:
+  locale: en
+  key: dynamic_translations.live_reporting.2014stories
+  value: 2014 Stories
+  is_proc: false
+  created_at: '2014-07-21 15:41:09.36481'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__2014friends_title:
+  locale: en
+  key: dynamic_translations.partners.2014friends_title
+  value: 2014 Friends
+  is_proc: false
+  created_at: '2014-07-21 15:41:20.505746'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__2014media_partner_title:
+  locale: en
+  key: dynamic_translations.partners.2014media_partner_title
+  value: 2014 Media partners
+  is_proc: false
+  created_at: '2014-07-21 15:41:30.862906'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__2014supporters_title:
+  locale: en
+  key: dynamic_translations.partners.2014supporters_title
+  value: 2014 Supporters
+  is_proc: false
+  created_at: '2014-07-21 15:41:39.581369'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+partners__2014title:
+  locale: en
+  key: dynamic_translations.partners.2014title
+  value: 2014 Partners
+  is_proc: false
+  created_at: '2014-07-21 15:41:49.909501'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+speakers__2014title:
+  locale: en
+  key: dynamic_translations.speakers.2014title
+  value: 2014 Contributors
+  is_proc: false
+  created_at: '2014-07-21 15:42:17.012441'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__description1:
+  locale: en
+  key: dynamic_translations.tickets.description1
+  value: 'We want OuiShare Fest to be an event that anyone can join. There are many ways you can attend, '
+  is_proc: false
+  created_at: '2014-10-15 15:43:30.422389'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__get_involved:
+  locale: en
+  key: dynamic_translations.tickets.get_involved
+  value: from contributing to the festival by co-creating a session to becoming a volunteer.
+  is_proc: false
+  created_at: '2014-10-15 16:18:09.921066'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+tickets__description2:
+  locale: en
+  key: dynamic_translations.tickets.description2
+  value: If you cannot contribute to the festival organization and have little or no financial resources, we are offering 50 tickets for 50 € upon application, as well as a small number of fully sponsored tickets that will be financed by donations from paying attendees.
+  is_proc: false
+  created_at: '2014-10-15 16:19:20.684995'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__contribute:
+  locale: en
+  key: dynamic_translations.get_involved.contribute
+  value: Contribute to the program
+  is_proc: false
+  created_at: '2014-10-15 16:39:18.702893'
+  updated_at: '2014-07-21 15:40:57.473051'
+
+get_involved__contribute_button:
+  locale: en
+  key: dynamic_translations.get_involved.contribute_button
+  value: Call for contributions coming soon
+  is_proc: false
+  created_at: '2014-10-15 16:41:33.880515'
+  updated_at: '2014-10-15 16:41:33.880515'
+  

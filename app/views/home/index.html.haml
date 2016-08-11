@@ -159,7 +159,7 @@
       .row.centered
         %br
         %h3.ouishare_stencil
-          = t('dynamic_translations.partners.title')
+          = I18n.t('dynamic_translations.partners.title')
         %hr.pink
         .partners
       = render "/individuals/partials/partners_display", :partners => @partners, :important_partners_display => true, :important_partners_count => 3

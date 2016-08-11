@@ -54,16 +54,16 @@ class TraductionsController < ApplicationController
       if !value[1].blank?        
         if translation.count > 0
           if translation.first.value != value[1]
-            if !translation.first.update_attributes(:value => value[1])
+            translation.first.value = value[1]
+            if !translation.first.save
               save_successfull = false
             end
           end
         else
-          translation = {:locale => value[0],
-                         :key => params[:key],
-                         :value => value[1]
-                        }                      
           new_trans = Translation.new(translation)
+          new_trans.locale = value[0]
+          new_trans.key = params[:key]
+          new_trans.value = value[1]
           if !new_trans.save
             save_successfull = false
           end
