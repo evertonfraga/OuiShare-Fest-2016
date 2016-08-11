@@ -2,59 +2,58 @@
   .container
     .row
       .col-lg-12
-        .col-lg-3
+        .col-lg-6
           %h5
             / Subscribe to our newsletter
             = t('dynamic_translations.footer.subscribe_newsletter')
           = form_tag home_newsletter_collect_email_path, :class => "form-inline" do
             .row
-              .col-md-6
+              .col-md-12
                 = text_field_tag :email_address,"", :class => "form-control-footer", :placeholder => t('dynamic_translations.main.placeholder_stay_posted')
-              .col-md-2.submit-email-button-footer
                 = submit_tag t('dynamic_translations.main.stay_posted'), :class => "btn-footer btn btn-primary", :style => 'border-radius: 0px;'
           %br
-          %p
-            %a{href: "http://jobs.ouishare.net/", target: "_blank"} Jobs
-            %br/
-            = t('dynamic_translations.about.title')
-            %a{href: "http://ouishare.net/about/", target: "_blank"} OuiShare
-            %br/
-            %a{href: "https://ouishare.gitbooks.io/ouishare-fest-toolkit/content/", target: "_blank"} 
-              =t('dynamic_translations.footer.open_source_fest')
-        .col-lg-3
+          / %p
+          /   %a{href: "http://jobs.ouishare.net/", target: "_blank"} Jobs
+          /   %br/
+          /   = t('dynamic_translations.about.title')
+          /   %a{href: "http://ouishare.net/about/", target: "_blank"} OuiShare
+          /   %br/
+          /   %a{href: "https://ouishare.gitbooks.io/ouishare-fest-toolkit/content/", target: "_blank"} 
+          /     =t('dynamic_translations.footer.open_source_fest')
+        .col-lg-6
           %h4
             = t('dynamic_translations.footer.contact')
 
           %p
             = t('dynamic_translations.footer.general_questions')
-            %a{href: "mailto:hello@ouisharefest.com", target: "_blank"} hello@ouisharefest.com
-            %br/
-            = t('dynamic_translations.footer.volunteers')
-            %a{href: "mailto:volunteers@ouisharefest.com", target: "_blank"} volunteers@ouisharefest.com
-            %br/
-            = t('dynamic_translations.footer.partners_sponsors')
-            %a{href: "mailto:partners@ouisharefest.com", target: "_blank"} partners@ouisharefest.com
-            %br/
-            %br/
-            %a{href: "/code_of_conduct"} 
-              =t('dynamic_translations.coc.title')
-        .col-lg-3
-          %h4
-            = t('dynamic_translations.footer.press')
-          %p
-            / %a{href: "join#_press_media"} 
-            /   =t('dynamic_translations.tickets.press_media')
-            / %br
-            %a{href: "https://drive.google.com/folderview?id=0B2XLJoIHF74KNVVzR1VLTEZ1a2M&usp=sharing", target: "_blank"} 
-              =t('dynamic_translations.footer.download_press_kit')
-            %br
-            = t('dynamic_translations.footer.press_contact')
-            %a{href: "mailto:press@ouisharefest.com", target: "_blank"} 
-              press@ouisharefest.com
-        .col-lg-3
-          %p
-            %a{href: "https://www.google.fr/maps/place/Cabaret+Sauvage/@48.8954079,2.3900521,17z/data=!3m1!4b1!4m2!3m1!1s0x47e66dc9c9c1ba1d:0xc71151aa5c6aae51", target: "_blank"}
-              %img.img-responsive.img-thumbnail{src: "/assets/small_map.png"}/
+            %a{href: "mailto:manuela@ouishare.net", target: "_blank"} manuela@ouishare.net
+            / %br/
+            / = t('dynamic_translations.footer.volunteers')
+            / %a{href: "mailto:volunteers@ouisharefest.com", target: "_blank"} volunteers@ouisharefest.com
+            / %br/
+            / = t('dynamic_translations.footer.partners_sponsors')
+            / %a{href: "mailto:partners@ouisharefest.com", target: "_blank"} partners@ouisharefest.com
+            / %br/
+            / %br/
+            / %a{href: "/code_of_conduct"} 
+            /   =t('dynamic_translations.coc.title')
+        / .col-lg-3
+        /   %h4
+        /     = t('dynamic_translations.footer.press')
+        /   %p
+        /     %a{href: "join#_press_media"} 
+        /       =t('dynamic_translations.tickets.press_media')
+        /     %br
+        /     %a{href: "https://drive.google.com/folderview?id=0B2XLJoIHF74KNVVzR1VLTEZ1a2M&usp=sharing", target: "_blank"} 
+        /       =t('dynamic_translations.footer.download_press_kit')
+        /     %br
+        /     = t('dynamic_translations.footer.press_contact')
+        /     %a{href: "mailto:press@ouisharefest.com", target: "_blank"} 
+        /       press@ouisharefest.com
+        / .col-lg-3
+        /   %p
+        /     %a{href: "https://www.google.fr/maps/place/Cabaret+Sauvage/@48.8954079,2.3900521,17z/data=!3m1!4b1!4m2!3m1!1s0x47e66dc9c9c1ba1d:0xc71151aa5c6aae51", target: "_blank"}
+        /       %img.img-responsive.img-thumbnail{src: "/assets/small_map.png"}/
     %br
     %br
     .row
