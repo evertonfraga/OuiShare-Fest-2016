@@ -15,6 +15,9 @@ en:
       colaboramerica: About ColaborAmerica
       zero_waste: Zero Waste Event
       the_venue: The Venue
+      landing_1: Born in the Latin American context, ColaborAmerica places itself as a movement to foster connections, deep reflexions, debates, studies and the development of new, disruptive, sustainable, collaborative and human economical models.
+      landing_2: By bringing together innovators, thought leaders, high-impact social initiatives, companies, investors, public sector, entrepreneurs and the civil society, we invite everyone to rethink and lead Latin America step by step towards a more conscious development.
+
     main:
       title: The Age of Communities
       event: Paris. May 5-7 at Cabaret Sauvage
@@ -112,6 +115,8 @@ en:
         the world faces.
       show_all: Show all
       hide_all: Hide team members
+    past_editions:
+      title: Past editions
     footer:
       general_questions: 'General questions:'
       volunteers: 'Volunteers:'
@@ -174,6 +179,7 @@ en:
       title: Participants
     program:
       main_schedule: Main Schedule
+      from_tradition_to_transition: From tradition to transition
       satellite_events: The Satellite Events
       ouishare_village: OuiShare Village at Foire de Paris
       title: Program
@@ -250,8 +256,3 @@ en:
       title: Stay posted
     join:
       ready: Are you ready?
-  
-    about:
-      landing_1: Born in the Latin American context, ColaborAmerica places itself as a movement to foster connections, deep reflexions, debates, studies and the development of new, disruptive, sustainable, collaborative and human economical models.
-      landing_2: By bringing together innovators, thought leaders, high-impact social initiatives, companies, investors, public sector, entrepreneurs and the civil society, we invite everyone to rethink and lead Latin America step by step towards a more conscious development.
-

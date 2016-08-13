@@ -37,7 +37,7 @@
                 = t('dynamic_translations.about.colaboramerica')
             %li.dropdown
               %a.dropdown-toggle{href: "#"}
-                =t('dynamic_translations.past_editions')
+                =t('dynamic_translations.past_editions.title')
               %ul.dropdown-submenu
                 %li
                   %a{href: "https://vimeo.com/111267699", target: '_blank'}
@@ -65,7 +65,7 @@
             %li
               / %a{href: "/after_gold_rush"}
               %a{href: "#"}
-                = t('dynamic_translations.from_tradition_to_transition')
+                = t('dynamic_translations.program.from_tradition_to_transition')
 
         %li.dropdown
           %a.dropdown-toggle{href: "/participants"}
@@ -97,19 +97,19 @@
             %li
               %a{href: "join#_press_media"}
                 = t('dynamic_translations.tickets.press_media')
-            %li.dropdown
-              %a.dropdown-toggle{href: "join#_prepare"}
-                = t('dynamic_translations.prepare_your_trip.title')
-              %ul.dropdown-submenu
-                %li
-                  %a{href: "/travel_information"}
-                    = t('dynamic_translations.travel_information.title')
-                %li
-                  %a{href: "/where_to_stay"}
-                    = t('dynamic_translations.where_to_stay.title')
-                %li
-                  %a{href: "/getting_to_the_venue"}
-                    = t('dynamic_translations.getting_venue.title')
+            / %li.dropdown
+            /   %a.dropdown-toggle{href: "join#_prepare"}
+            /     = t('dynamic_translations.prepare_your_trip.title')
+            /   %ul.dropdown-submenu
+            /     %li
+            /       %a{href: "/travel_information"}
+            /         = t('dynamic_translations.travel_information.title')
+            /     %li
+            /       %a{href: "/where_to_stay"}
+            /         = t('dynamic_translations.where_to_stay.title')
+            /     %li
+            /       %a{href: "/getting_to_the_venue"}
+            /         = t('dynamic_translations.getting_venue.title')
 
         %li.tickets-highlight
           %a.highlight{href: "#"}
