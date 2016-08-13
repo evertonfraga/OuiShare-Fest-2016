@@ -9,7 +9,9 @@
       .row.centered
         %h5.col-md-6.col-md-offset-3.ouishare_stencil.white.text-center#_about
           %span.bluebg
-            = t('dynamic_translations.tagline.exploring_the_edges')
+            = t('dynamic_translations.about.tagline_1')
+        %h4.ouishare-stencil{style: 'clear: left; margin-top: 80px; text-transform: none'}
+          = t('dynamic_translations.about.tagline_1_1')
         / .carousel.slide.col-xs-12.col-md-offset-1.col-lg-offset-2.col-md-10.col-lg-8
         /   .carousel-inner
         /     .item.active
@@ -23,34 +25,26 @@
         /   %img.quote-right-carousel{:src => '/assets/quote_left.png', :alt => 'quote right'}
         .col-md-6.col-md-offset-3.col-sm-8.col-sm-offset-2
           %p{:style => 'margin-top: 2em;'}
-            = t('dynamic_translations.about.subtitle')
-            = t('dynamic_translations.about.t1')
-          %br
-          %p
-            = t('dynamic_translations.about.t2')
-          %br
-          %p
-            = t('dynamic_translations.about.t3')
-          %br
-          %p
-            = t('dynamic_translations.about.t4')
-            = t('dynamic_translations.about.t5')
-            = t('dynamic_translations.about.t6')
-      .row.centered.btn-space
-        .col-md-6.col-md-offset-3
-          %a{:href => 'program'}
-            %button.btn.btn-large.btn-primary
-              = t('dynamic_translations.button.see_program')
+            = t('dynamic_translations.about.text_1_1')
+          %p{:style => 'margin-top: 2em;'}
+            = t('dynamic_translations.about.text_1_2')
+      / .row.centered.btn-space
+      /   .col-md-6.col-md-offset-3
+      /     %a{:href => 'program'}
+      /       %button.btn.btn-large.btn-primary
+      /         = t('dynamic_translations.button.see_program')
 
 #_key_topics.triangle_bg_topics.white_txt
   .container
     .third-section
       .row.centered
         %h3.ouishare_stencil
-          = t('dynamic_translations.topics.title')
+          = t('dynamic_translations.about.tagline_2')
         %hr.pink
-        %br/
-        %br/
+        %h4.ouishare-stencil
+          = t('dynamic_translations.about.tagline_2_1')
+        %br
+        %br
       .row
         .col-md-8.col-md-offset-2.topics
           .row
