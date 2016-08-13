@@ -1,4 +1,4 @@
-ruby '2.0.0'
+ruby '2.3.0'
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.22'
@@ -121,3 +121,4 @@ gem 'eventbrite-client'
 # required when tried to run rails console from heroku
 gem 'test-unit', '~> 3.0'
 
+gem 'rails_12factor'

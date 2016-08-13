@@ -250,6 +250,11 @@ GEM
     rails-i18n (3.0.1)
       i18n (~> 0.5)
       rails (>= 3.0.0, < 4.0.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (3.2.22)
       actionpack (= 3.2.22)
       activesupport (= 3.2.22)
@@ -376,6 +381,7 @@ DEPENDENCIES
   railroady
   rails (= 3.2.22)
   rails-i18n (~> 3.0.0.pre)
+  rails_12factor
   rspec-rails
   sass-rails (~> 3.2.3)
   strong_parameters
@@ -387,6 +393,9 @@ DEPENDENCIES
   webrat
   xray-rails
   yaml_db
+
+RUBY VERSION
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.5
