@@ -18,3 +18,13 @@
     t.is_proc = false
     t.save!
 }
+
+
+%w(Brought\ to\ you
+Co-organizing
+Produced\ by).map{ |e|
+  IndividualType.create(title:e)
+}
+
+
+IndividualType.find_by_title('Brought to you').update_attributes(title: 'Brought to you by')

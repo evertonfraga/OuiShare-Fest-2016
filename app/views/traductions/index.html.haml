@@ -19,10 +19,12 @@
                 = translation.key
             %th
               %i.glyphicon.glyphicon-edit
-              = link_to "Edit", edit_traduction_path(trans_id)
+              - if trans_id
+                = link_to "Edit", edit_traduction_path(trans_id)
               &nbsp;
               %i.glyphicon.glyphicon-remove
-              = link_to "Delete", traduction_path(trans_id), "data-method" => :delete, :confirm => "Are you sure?"
+              - if trans_id
+                = link_to "Delete", traduction_path(trans_id), "data-method" => :delete, :confirm => "Are you sure?"
           %tbody
             -Translation.where(:key => translation.key).where(:locale => 'en').each do |translation|
               %tr

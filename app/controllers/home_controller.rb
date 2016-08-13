@@ -49,8 +49,22 @@ class HomeController < ApplicationController
     if IndividualType.find_by_title('Supporters')      
       @supporters = IndividualType.find_by_title('Supporters').get_members
     end
-    if IndividualType.find_by_title('Patronage')      
+    if IndividualType.find_by_title('Patronage')
       @patronage = IndividualType.find_by_title('Patronage').get_members
+    end
+
+
+    if IndividualType.find_by_title('Brought to you by')
+      @brought_by = IndividualType.find_by_title('Brought to you by').get_members
+    end
+    if IndividualType.find_by_title('Co-organizing')
+      @co_organizing = IndividualType.find_by_title('Co-organizing').get_members
+    end
+    if IndividualType.find_by_title('Produced by')
+      @produced_by = IndividualType.find_by_title('Produced by').get_members
+    end
+    if IndividualType.find_by_title('Institutional Partners')
+      @institutional_partners = IndividualType.find_by_title('Institutional Partners').get_members
     end
 
     # eventbrite_instance = connect_to_eventbrite()

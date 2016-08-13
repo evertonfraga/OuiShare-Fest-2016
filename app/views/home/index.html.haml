@@ -112,40 +112,40 @@
 
 / Speakers
 
-#speakers.vspace{:style => "padding-top:4.5em;"}
-  .container
-    .row.centered
-      %h3.ouishare_stencil
-        = t('dynamic_translations.speakers.title')
-      %hr.pink
-      - if !@displayed_speakers.blank?
-        .ch-grid
-          - @displayed_speakers.each do |speaker|
-            .col-lg-3.individuals-list-display
-              %li
-                = render "/individuals/partials/speaker_display", :speaker => speaker
-          - if !@hidden_speakers.blank?
-            %div
-              #allspeakers{style: "display: none;"}
-                - @hidden_speakers.each do |speaker|
-                  .col-lg-3.individuals-list-display
-                    %li
-                      = render "/individuals/partials/speaker_display", :speaker => speaker
-              %div.row.mb_20
-                %a#btn_showspeakers_down
-                  %button.btn.btn-embossed.btn-primary.mt_20
-                    = t('dynamic_translations.speakers.show_all')
+/ #speakers.vspace{:style => "padding-top:4.5em;"}
+/   .container
+/     .row.centered
+/       %h3.ouishare_stencil
+/         = t('dynamic_translations.speakers.title')
+/       %hr.pink
+/       - if !@displayed_speakers.blank?
+/         .ch-grid
+/           - @displayed_speakers.each do |speaker|
+/             .col-lg-3.individuals-list-display
+/               %li
+/                 = render "/individuals/partials/speaker_display", :speaker => speaker
+/           - if !@hidden_speakers.blank?
+/             %div
+/               #allspeakers{style: "display: none;"}
+/                 - @hidden_speakers.each do |speaker|
+/                   .col-lg-3.individuals-list-display
+/                     %li
+/                       = render "/individuals/partials/speaker_display", :speaker => speaker
+/               %div.row.mb_20
+/                 %a#btn_showspeakers_down
+/                   %button.btn.btn-embossed.btn-primary.mt_20
+/                     = t('dynamic_translations.speakers.show_all')
 
-              %div.row.mb_20.mt_20
-                %button.btn.btn-embossed.btn-primary.hide#btn_showspeakers_up
-                  = t('dynamic_translations.speakers.hide_all')
+/               %div.row.mb_20.mt_20
+/                 %button.btn.btn-embossed.btn-primary.hide#btn_showspeakers_up
+/                   = t('dynamic_translations.speakers.hide_all')
 
-    .row.centered.btn-space
-      .col-md-12
-        .col-md-6.col-md-offset-3
-          %a{:href => 'participants#_speakers'}
-            %button.btn.btn-large.btn-primary
-              = t('dynamic_translations.speakers.see_all')
+/     .row.centered.btn-space
+/       .col-md-12
+/         .col-md-6.col-md-offset-3
+/           %a{:href => 'participants#_speakers'}
+/             %button.btn.btn-large.btn-primary
+/               = t('dynamic_translations.speakers.see_all')
 
 
 / Buy tickets
@@ -155,67 +155,67 @@
 / Partners
 .partners-container
   .container.sinfo
-    - if !@partners.blank?
+    / - if !@partners.blank?
+    /   .row.centered
+    /     %br
+    /     %h3.ouishare_stencil
+    /       = I18n.t('dynamic_translations.partners.title')
+    /     %hr.pink
+    /     .partners
+    /   = render "/individuals/partials/partners_display", :partners => @partners, :important_partners_display => true, :important_partners_count => 3
+    /   %br
+    /   %br
+
+    - if !@brought_by.blank?
       .row.centered
         %br
         %h3.ouishare_stencil
-          = I18n.t('dynamic_translations.partners.title')
+          = t('dynamic_translations.partners.brought_to_you_by')
         %hr.pink
         .partners
-      = render "/individuals/partials/partners_display", :partners => @partners, :important_partners_display => true, :important_partners_count => 3
+      = render "/individuals/partials/partners_display", :partners => @brought_by, :important_partners_display => false
       %br
       %br
 
-    - if !@patronage.blank?
-      .row.centered
-        %br
-        %h6
-          = t('dynamic_translations.partners.patronage_mairie')
-        .partners
-      = render "/individuals/partials/partners_display", :partners => @patronage, :important_partners_display => false
-      %br
-      %br
-
-    - if !@media_partners.blank?
+    - if !@co_organizing.blank?
       .row.centered
         %br
         %h3.ouishare_stencil
-          = t('dynamic_translations.partners.media_partner_title')
+          = t('dynamic_translations.partners.co-organizing')
         %hr.pink
         .partners
-      = render "/individuals/partials/partners_display", :partners => @media_partners, :important_partners_display => false
+      = render "/individuals/partials/partners_display", :partners => @co_organizing, :important_partners_display => false
       %br
       %br
 
-    - if !@friends.blank?
+    - if !@produced_by.blank?
       .row.centered
         %br
         %h3.ouishare_stencil
-          = t('dynamic_translations.partners.friends_title')
+          = t('dynamic_translations.partners.produced_by')
         %hr.pink
         .partners
-      = render "/individuals/partials/partners_display", :partners => @friends, :important_partners_display => false
-
+      = render "/individuals/partials/partners_display", :partners => @produced_by, :important_partners_display => false
       %br
       %br
 
-
-    - if !@supporters.blank?
+    - if !@institutional_partners.blank?
       .row.centered
         %br
         %h3.ouishare_stencil
-          = t('dynamic_translations.partners.supporters_title')
+          = t('dynamic_translations.partners.institutional_partners')
         %hr.pink
         .partners
-      = render "/individuals/partials/partners_display", :partners => @supporters, :important_partners_display => false
-
+      = render "/individuals/partials/partners_display", :partners => @institutional_partners, :important_partners_display => false
+      %br
+      %br
 
 .become_partner
   .container 
     .row.centered
       .col-md-4.col-md-offset-4.col-sm-12
         .btn.btn-pink.become-partner-btn
-          %a{:href => 'mailto:partners@ouisharefest.com'}
+          %a{:href => 'mailto:manuela@ouishare.net'}
             / Become a partner
             = t('dynamic_translations.partners.button')
 

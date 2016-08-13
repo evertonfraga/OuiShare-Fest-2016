@@ -6,6 +6,7 @@ en:
       show_all: Show all the speakers
       hide_all: Hide speakers
       team: Team
+      see_all: See all
     about:
       description: OuiShare Fest is a three-day festival that brings together 1000
         actors from the collaborative economy in Paris each year.
@@ -46,6 +47,7 @@ en:
       friends_title: Friends
       media_partner_title: Media partners
       supporters_title: Supporters
+      button: Become a partner
     institutional_partners:
       title: Institutional Partners
     report:
