@@ -53,6 +53,7 @@ en:
       link: View full report
     get_involved:
       title: Get Involved
+      partners_txt: Become a partner
       description: As the next OuiShare Fest comes closer, there will be many ways
         you can get involved in its organization or participate as a partner.
       option_1: We invite you to organize OuiShare Fest satellite events in Paris
@@ -118,6 +119,9 @@ en:
       contact: Contact
       download_press_kit: Download press kit
       press_contact: 'For a press pass, please send an email to '
+      subscribe_netsletter: Subscribe to our newsletter
+    sponsors:
+      title: Sponsors
     blog:
       title: Blog
     involve_popup:
@@ -242,3 +246,5 @@ en:
         that help to accelerate this shift.
     stayposted:
       title: Stay posted
+    join:
+      ready: Are you ready?

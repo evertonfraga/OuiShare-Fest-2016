@@ -59,7 +59,7 @@
 
 / Sponsors
 - if !@sponsors.blank?
-  #_curators.vspace
+  #_sponsors{:style => 'padding-top:100px'}
     .container
       .row.centered
         %h3.ouishare_stencil
@@ -73,18 +73,18 @@
 
 .partners-container#_partners{:style => 'padding-top:100px'}
   .container.sinfo
-    - if !@partners.blank?
-      .row.centered
-        %br
-        %h3.ouishare_stencil
-          = t('dynamic_translations.partners.title')
-        %hr.pink
-      = render "/individuals/partials/partners_display", :partners => @partners, :important_partners_display => true, :important_partners_count => 3
-      %br
-      %br
+    / - if !@partners.blank?
+    /   .row.centered
+    /     %br
+    /     %h3.ouishare_stencil
+    /       = t('dynamic_translations.partners.title')
+    /     %hr.pink
+    /   = render "/individuals/partials/partners_display", :partners => @partners, :important_partners_display => true, :important_partners_count => 3
+    /   %br
+    /   %br
 
     - if !@institutional_partners.blank?
-      .row.centered
+      .row.centered#institutional_partners
         %br
         %h3.ouishare_stencil
           = t('dynamic_translations.institutional_partners.title')
@@ -141,7 +141,7 @@
     .row.centered
       .col-md-4.col-md-offset-4.col-sm-12
         .btn.btn-pink.become-partner-btn
-          %a{:href => 'mailto:partners@ouisharefest.com'}
+          %a{:href => 'mailto:manuela@ouishare.net'}
             / Become a partner
             = t('dynamic_translations.get_involved.partners_txt')
 
