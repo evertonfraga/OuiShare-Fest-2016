@@ -47,130 +47,69 @@
         %br
       .row
         .col-md-8.col-md-offset-2.topics
-          .row
-            .col-sm-4
-              %h5
-                = t('dynamic_translations.topics.work')
-            .col-xs-2
-              %p.topics
-                = image_tag "/assets/topics-work.png"
-            .col-sm-6
-              %p
-                = t('dynamic_translations.topics.work_desc')
-          .row
-            .col-sm-4
-              %h5
-                = t('dynamic_translations.topics.blockchain')
-            .col-xs-2
-              %p.topics
-                = image_tag "/assets/topics-blockchain.png"
-            .col-sm-6
-              %p
-                = t('dynamic_translations.topics.blockchain_desc')
-          .row
-            .col-sm-4
-              %h5
-                = t('dynamic_translations.topics.opensource')
-            .col-xs-2
-              %p.topics
-                = image_tag "/assets/topics-opensource.png"
-            .col-sm-6
-              %p
-                = t('dynamic_translations.topics.opensource_desc')
-          .row
-            .col-sm-4
-              %h5
-                = t('dynamic_translations.topics.tech')
-            .col-xs-2
-              %p.topics
-                = image_tag "/assets/topics-tech.png"
-            .col-sm-6
-              %p
-                = t('dynamic_translations.topics.tech_desc')
-          .row
-            .col-sm-4
-              %h5
-                = t('dynamic_translations.topics.colleco')
-            .col-xs-2
-              %p.topics
-                = image_tag "/assets/topics-colleco.png"
-            .col-sm-6
-              %p
-                = t('dynamic_translations.topics.colleco_desc')
-          .row
-            .col-sm-4
-              %h5
-                = t('dynamic_translations.topics.organization')
-            .col-xs-2
-              %p.topics
-                = image_tag "/assets/topics-organization.png"
-            .col-sm-6
-              %p
-                = t('dynamic_translations.topics.organization_desc')
-          .row
-            .col-sm-4
-              %h5
-                = t('dynamic_translations.topics.body')
-            .col-xs-2
-              %p.topics
-                = image_tag "/assets/topics-body.png"
-            .col-sm-6
-              %p
-                = t('dynamic_translations.topics.body_desc')
-          / .row
-          /   .col-sm-4
-          /     %h5
-          /       = t('dynamic_translations.topics.tech_title')
-          /   .col-xs-2
-          /     %p.topics
-          /       = image_tag "/assets/picto-network.png"
-          /   .col-sm-6
-          /     %p
-          /       = t('dynamic_translations.topics.tech_desc')
-          / .row
-          /   .col-sm-4
-          /     %h5
-          /       = t('dynamic_translations.topics.om_title')
-          /   .col-xs-2
-          /     %p.topics
-          /       = image_tag "/assets/picto-makers.png"
-          /   .col-sm-6
-          /     %p
-          /       = t('dynamic_translations.topics.om_desc')
-          / .row
-          /   .col-sm-4
-          /     %h5
-          /       = t('dynamic_translations.topics.orgs_title')
-          /   .col-xs-2
-          /     %p.topics
-          /       = image_tag "/assets/picto-book.png"
-          /   .col-sm-6
-          /     %p
-          /       = t('dynamic_translations.topics.orgs_desc')
-          / .row
-          /   .col-sm-4
-          /     %h5
-          /       = t('dynamic_translations.topics.shareco_title')
-          /   .col-xs-2
-          /     %p.topics
-          /       = image_tag "/assets/picto-sharingeco.png"
-          /   .col-sm-6
-          /     %p
-          /       = t('dynamic_translations.topics.shareco_desc')
-          / .row
-          /   .col-sm-4
-          /     %h5
-          /       = t('dynamic_translations.topics.cf_title')
-          /   .col-xs-2
-          /     %p.topics
-          /       = image_tag "/assets/picto-finance.png"            
-          /   .col-sm-6
-          /     %p
-          /       = t('dynamic_translations.topics.cf_desc')
+          %ul.topics
+            %li
+              \#P2P
+            %li
+              \#OpenSource
+            %li
+              \#SharingEconomy
+            %li
+              \#Makers
+            %li
+              \#OpenInnovation
+            %li
+              \#Sustainability
+            %li
+              \#CircularEconomy
+            %li
+              \#Crowdfunding
+            %li
+              \#Currencies
+            %li
+              \#HorizontalOrgs
+            %li
+              \#Startups
+            %li
+              \#Communities
+            %li
+              \#NewEconomy
+            %li
+              \#SocialInnovation
+            %li
+              \#TraditionalCommunities
+            %li
+              \#LowTech
+            %li
+              \#IndigenousRights
+            %li
+              \#CivicTech
+            %li
+              \#BlockChain
+            %li
+              \#FutureOfCities
+
+.blank_bg#_past_editions
+  .container
+    .row
+      %h3.ouishare_stencil.centered
+        = t('dynamic_translations.about.tagline_3')
+      %hr.pink
+      %br
+
+      .col-md-6
+        %iframe{src: "https://player.vimeo.com/video/128404503", width: "560", height: "315", frameborder: "0", webkitallowfullscreen: '', mozallowfullscreen: '', allowfullscreen: ''}
+      .col-md-6
+        %iframe{width: '560', height: '315', src: 'https://www.youtube.com/embed/Hr683Ldt6dQ', frameborder: '0', allowfullscreen: ''}
+    .row
+      .col-md-6
+        %iframe{width: '560', height: '315', src: 'https://www.youtube.com/embed/P5itwC5W9H0', frameborder: '0', allowfullscreen: ''}
+      .col-md-6
+        %iframe{width: '560', height: '315', src: 'https://www.youtube.com/embed/DdkPM5TrNz0', frameborder: '0', allowfullscreen: ''}
 
 
 / What the press says
-.blank_bg#_about_press
+.blank_bg#_about_press{style: 'margin-top: 100px'}
   .container
     .row.centered
       %h3.ouishare_stencil
@@ -219,6 +158,7 @@
 
       %a.right.carousel-control{:href => "#myCarousel", 'data-slide' => "next" }
         &rsaquo;
+}
 
 / Zero Waste banner
 
@@ -226,9 +166,11 @@
   .container
     .row.centered
       .col-md-6.col-md-offset-3.col-sm-12
-        .btn.btn-pink.become-partner-btn
-          %a{href: home_zero_waste_event_path}
-            = t('dynamic_translations.zerowaste.btn_text')
+        %h5  
+          = t('dynamic_translations.about.tagline_4')
+        %hr.pink
+        %p
+          = t('dynamic_translations.about.text_4')
 
 / #_awards.vspace.aboutouishare-section
 /   .container

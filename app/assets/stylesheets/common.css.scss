@@ -14,3 +14,23 @@
 .home_partners{
   padding: 30px 13px 13px 13px;
 }
+
+ul.topics {
+	padding: 0;
+	list-style-type: none;
+	li {
+		display: inline-block;
+		color: #fff;
+		background-color: #D9A95B;
+		font-weight: bold;
+		text-shadow: 1px 1px rgba(0,0,0,0.25);
+		margin: 0 4px 8px 0;
+		padding: 3px 12px;
+	}
+}
+
+#slideshow-container {
+	h1 {
+		text-shadow: 2px 0 3px #000;
+	}
+}

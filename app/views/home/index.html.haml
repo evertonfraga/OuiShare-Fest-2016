@@ -69,46 +69,42 @@
 %section#slideshow-container
   .banner
     %ul
-      / slide 1
+      %li{"data-transition" => "fade"}
+        = image_tag 'carousel/ouisharefest-01.jpg', {style: "background:#1abc9c"}
+        .caption.general_caption.pst_media12.lft{"data-easing" => "easeOutExpo", "data-end" => "7900", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "600", "data-start" => "800", "data-x" => "58", "data-y" => "250"}
+          / %h1
+          /   Connect
+
+      %li{"data-transition" => "fade"}
+        = image_tag 'carousel/reboot-01.jpg', {style: "background:#1abc9c"}
+        .caption.general_caption.pst_media12.lft{"data-easing" => "easeOutExpo", "data-end" => "7900", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "600", "data-start" => "800", "data-x" => "58", "data-y" => "250"}
+          / %h1
+          /   Create
+
+      %li{"data-transition" => "fade"}
+        = image_tag 'carousel/ouisharefest-02.jpg', {style: "background:#e4e6e6"}
+        .caption.general_caption.pst_media14.lfl.ltl{"data-easing" => "easeOutBack", "data-end" => "5700", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "900", "data-start" => "100", "data-x" => "56", "data-y" => "250"}
+          / %h1
+          /   Debate
+
+      %li{"data-transition" => "fade"}
+        = image_tag 'carousel/reboot-02.jpg', {style: "background:#1abc9c"}
+        .caption.general_caption.pst_media12.lft{"data-easing" => "easeOutExpo", "data-end" => "7900", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "600", "data-start" => "800", "data-x" => "58", "data-y" => "250"}
+          / %h1
+          /   Dance!
+
       %li{"data-transition" => "fade"}
         = image_tag 'carousel/colaborario-01.jpg'
-        / %img{alt: "", src: "assets/carousel/colaborario-01.jpg", style: "background:#1abc9c"}/
         .caption.general_caption.pst_media12.lft{"data-easing" => "easeOutExpo", "data-end" => "7900", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "600", "data-start" => "800", "data-x" => "58", "data-y" => "250"}
-          %h1{:style => "text-shadow: 2px 0px black"}
-            Inspire
+          / %h1
+          /   Inspire
 
-      / slide 2
       %li{"data-transition" => "fade"}
-        %img{alt: "", src: "assets/carousel/colaborario-02.jpg", style: "background:#1abc9c"}/
+        = image_tag 'carousel/colaborario-02.jpg', {style: "background:#1abc9c"}
         .caption.general_caption.pst_media14.lfl.ltl{"data-easing" => "easeOutBack", "data-end" => "5700", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "900", "data-start" => "100", "data-x" => "56", "data-y" => "250"}
-          %h1{:style => "text-shadow: 2px 0px black"}
-            Collaborate
+          / %h1
+          /   Collaborate
 
-      / slide 3
-      %li{"data-transition" => "fade"}
-        %img{alt: "", src: "assets/carousel/ouisharefest-01.jpg", style: "background:#1abc9c"}/
-        .caption.general_caption.pst_media12.lft{"data-easing" => "easeOutExpo", "data-end" => "7900", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "600", "data-start" => "800", "data-x" => "58", "data-y" => "250"}
-          %h1{:style => "text-shadow: 2px 0px black"}
-            Connect
-
-      / slide 4
-      %li{"data-transition" => "fade"}
-        %img{alt: "", src: "assets/carousel/ouisharefest-02.jpg", style: "background:#e4e6e6"}/
-        .caption.general_caption.pst_media14.lfl.ltl{"data-easing" => "easeOutBack", "data-end" => "5700", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "900", "data-start" => "100", "data-x" => "56", "data-y" => "250"}
-          %h1{:style => "text-shadow: 2px 0px black"}
-            Debate
-
-      %li{"data-transition" => "fade"}
-        %img{alt: "", src: "assets/carousel/reboot-01.jpg", style: "background:#1abc9c"}/
-        .caption.general_caption.pst_media12.lft{"data-easing" => "easeOutExpo", "data-end" => "7900", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "600", "data-start" => "800", "data-x" => "58", "data-y" => "250"}
-          %h1{:style => "text-shadow: 2px 0px black"}
-            Create
-
-      %li{"data-transition" => "fade"}
-        %img{alt: "", src: "assets/carousel/reboot-02.jpg", style: "background:#1abc9c"}/
-        .caption.general_caption.pst_media12.lft{"data-easing" => "easeOutExpo", "data-end" => "7900", "data-endeasing" => "easeInBack", "data-endspeed" => "900", "data-speed" => "600", "data-start" => "800", "data-x" => "58", "data-y" => "250"}
-          %h1{:style => "text-shadow: 2px 0px black"}
-            Dance!
 
 
 / Speakers
