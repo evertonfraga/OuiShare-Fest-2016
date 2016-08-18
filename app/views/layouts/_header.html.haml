@@ -64,7 +64,7 @@
                 = t('dynamic_translations.program.main_schedule')
             %li
               / %a{href: "/after_gold_rush"}
-              %a{href: "#"}
+              %a{href: "#transition"}
                 = t('dynamic_translations.program.from_tradition_to_transition')
 
         %li.dropdown
@@ -84,47 +84,47 @@
               %a{href: "participants#_partners"}
                 = t('dynamic_translations.institutional_partners.title')
 
-        %li.dropdown
-          %a.dropdown-toggle{href: "/join"}
-            =t('dynamic_translations.get_involved.join')
-          %ul.dropdown-menu.hidden-sm
-            %li
-              %a{href: "join#_tickets"}
-                = t('dynamic_translations.tickets.title')
-            %li
-              %a{href: "join#_getinvolved"}
-                = t('dynamic_translations.get_involved.title')
-            %li
-              %a{href: "join#_press_media"}
-                = t('dynamic_translations.tickets.press_media')
-            / %li.dropdown
-            /   %a.dropdown-toggle{href: "join#_prepare"}
-            /     = t('dynamic_translations.prepare_your_trip.title')
-            /   %ul.dropdown-submenu
-            /     %li
-            /       %a{href: "/travel_information"}
-            /         = t('dynamic_translations.travel_information.title')
-            /     %li
-            /       %a{href: "/where_to_stay"}
-            /         = t('dynamic_translations.where_to_stay.title')
-            /     %li
-            /       %a{href: "/getting_to_the_venue"}
-            /         = t('dynamic_translations.getting_venue.title')
+        -#%li.dropdown
+        -#  %a.dropdown-toggle{href: "/join"}
+        -#    =t('dynamic_translations.get_involved.join')
+        -#  %ul.dropdown-menu.hidden-sm
+        -#    %li
+        -#      %a{href: "join#_tickets"}
+        -#        = t('dynamic_translations.tickets.title')
+        -#    %li
+        -#      %a{href: "join#_getinvolved"}
+        -#        = t('dynamic_translations.get_involved.title')
+        -#    %li
+        -#      %a{href: "join#_press_media"}
+        -#        = t('dynamic_translations.tickets.press_media')
+            -# %li.dropdown
+            -#   %a.dropdown-toggle{href: "join#_prepare"}
+            -#     = t('dynamic_translations.prepare_your_trip.title')
+            -#   %ul.dropdown-submenu
+            -#     %li
+            -#       %a{href: "/travel_information"}
+            -#         = t('dynamic_translations.travel_information.title')
+            -#     %li
+            -#       %a{href: "/where_to_stay"}
+            -#         = t('dynamic_translations.where_to_stay.title')
+            -#     %li
+            -#       %a{href: "/getting_to_the_venue"}
+            -#         = t('dynamic_translations.getting_venue.title')
 
-        %li.tickets-highlight
-          %a.highlight{href: "#"}
-            =t('dynamic_translations.tickets.title')
+        -#%li.tickets-highlight
+        -#  %a.highlight{href: "#"}
+        -#    =t('dynamic_translations.tickets.title')
 
         %li.hidden-sm
           .text-center.social-media-icons-header
             %a{href: "https://www.facebook.com/colaboramerica", target: "_blank"}
               %img{src: "/assets/BT-facebook.png", width: "24px", :style => "margin-top:-10px;"}/
-            / %a{href: "https://twitter.com/colaboramerica", target: "_blank"}
-            /   %img{src: "/assets/BT-twitter.png", width: "24px", :style => "margin-top:-10px;"}/
-            / %a{href: "https://plus.google.com/+OuishareNet", target: "_blank"}
-            /   %img{src: "/assets/BT-googleplus.png", width: "24px", :style => "margin-top:-10px;"}/
-            / %a{href: "https://www.youtube.com/user/OuiShareTV", target: "_blank"}
-            /   %img{src: "/assets/BT-youtube.png", width: "24px", :style => "margin-top:-10px;"}/
+            -# %a{href: "https://twitter.com/colaboramerica", target: "_blank"}
+            -#   %img{src: "/assets/BT-twitter.png", width: "24px", :style => "margin-top:-10px;"}/
+            -# %a{href: "https://plus.google.com/+OuishareNet", target: "_blank"}
+            -#   %img{src: "/assets/BT-googleplus.png", width: "24px", :style => "margin-top:-10px;"}/
+            -# %a{href: "https://www.youtube.com/user/OuiShareTV", target: "_blank"}
+            -#   %img{src: "/assets/BT-youtube.png", width: "24px", :style => "margin-top:-10px;"}/
         %li
           = select_languages
 
