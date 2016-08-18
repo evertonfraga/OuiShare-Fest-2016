@@ -7,25 +7,25 @@
         %hr.pink
         %br
         %br
-      / .col-md-8.col-md-offset-2
-      /   %p
-      /     = t('dynamic_translations.program.text')
-      / .col-md-6.col-md-offset-3.btn-space
-      /   %a{href: "/join#_getinvolved"}
-      /     %button.btn.btn-large.btn-primary
-      /       = t('dynamic_translations.get_involved.title')
+      -# .col-md-8.col-md-offset-2
+      -#   %p
+      -#     = t('dynamic_translations.program.text')
+      -# .col-md-6.col-md-offset-3.btn-space
+      -#   %a{href: "/join#_getinvolved"}
+      -#     %button.btn.btn-large.btn-primary
+      -#       = t('dynamic_translations.get_involved.title')
     .row.centered
-      / .col-md-10.col-md-offset-1
-      /   %h4.white
-      /     = t('dynamic_translations.main_schedule.program_structure')
-      /   %br
+      -# .col-md-10.col-md-offset-1
+      -#   %h4.white
+      -#     = t('dynamic_translations.main_schedule.program_structure')
+      -#   %br
       .col-md-8.col-md-offset-2
         %p
           = t('dynamic_translations.program.text')
         %p
           = t('dynamic_translations.program_structure.text_a')
-        / %p
-        /   = t('dynamic_translations.program_structure.text_b')
+        -# %p
+        -#   = t('dynamic_translations.program_structure.text_b')
         %p
           = t('dynamic_translations.program_structure.text_c')
 
@@ -181,19 +181,19 @@
         %p
           %img.img-responsive{:src => '/assets/guiding-criteria.png', :alt => 'Guiding principles'}
 
-/ / Curators
-/ #_curators.vspace
-/   .container
-/     .row.centered
-/       %h3.ouishare_stencil
-/         = t('dynamic_translations.program.curators')
-/       %hr.pink
-/       - if !@curators.blank?
-/         .ch-grid
-/           - @curators.each do |team_member|
-/             .col-lg-3.individuals-list-display
-/               %li
-/                 = render "/individuals/partials/team_member_display", :team_member => team_member 
+-# / Curators
+-# #_curators.vspace
+-#   .container
+-#     .row.centered
+-#       %h3.ouishare_stencil
+-#         = t('dynamic_translations.program.curators')
+-#       %hr.pink
+-#       - if !@curators.blank?
+-#         .ch-grid
+-#           - @curators.each do |team_member|
+-#             .col-lg-3.individuals-list-display
+-#               %li
+-#                 = render "/individuals/partials/team_member_display", :team_member => team_member 
 
 
 

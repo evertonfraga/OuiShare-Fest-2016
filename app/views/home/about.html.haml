@@ -12,27 +12,27 @@
             = t('dynamic_translations.about.tagline_1')
         %h4.ouishare-stencil{style: 'clear: left; margin-top: 80px; text-transform: none'}
           = t('dynamic_translations.about.tagline_1_1')
-        / .carousel.slide.col-xs-12.col-md-offset-1.col-lg-offset-2.col-md-10.col-lg-8
-        /   .carousel-inner
-        /     .item.active
-        /       .press-content{:style => 'height:3em;'}
-        /         .press-text
-        /           %h3
-        /             = t('dynamic_translations.about.subtitle')
-        /       .label-press
-        /         Arun Sundararajan, Professor at NYU’s Stern School of Business        
-        /   %img.quote-left-carousel{:src => '/assets/quote_left.png', :alt => 'quote left'}
-        /   %img.quote-right-carousel{:src => '/assets/quote_left.png', :alt => 'quote right'}
+        -# .carousel.slide.col-xs-12.col-md-offset-1.col-lg-offset-2.col-md-10.col-lg-8
+        -#   .carousel-inner
+        -#     .item.active
+        -#       .press-content{:style => 'height:3em;'}
+        -#         .press-text
+        -#           %h3
+        -#             = t('dynamic_translations.about.subtitle')
+        -#       .label-press
+        -#         Arun Sundararajan, Professor at NYU’s Stern School of Business        
+        -#   %img.quote-left-carousel{:src => '/assets/quote_left.png', :alt => 'quote left'}
+        -#   %img.quote-right-carousel{:src => '/assets/quote_left.png', :alt => 'quote right'}
         .col-md-6.col-md-offset-3.col-sm-8.col-sm-offset-2
           %p{:style => 'margin-top: 2em;'}
             = t('dynamic_translations.about.text_1_1')
           %p{:style => 'margin-top: 2em;'}
             = t('dynamic_translations.about.text_1_2')
-      / .row.centered.btn-space
-      /   .col-md-6.col-md-offset-3
-      /     %a{:href => 'program'}
-      /       %button.btn.btn-large.btn-primary
-      /         = t('dynamic_translations.button.see_program')
+      -# .row.centered.btn-space
+      -#   .col-md-6.col-md-offset-3
+      -#     %a{:href => 'program'}
+      -#       %button.btn.btn-large.btn-primary
+      -#         = t('dynamic_translations.button.see_program')
 
 #_key_topics.triangle_bg_topics.white_txt
   .container
@@ -152,7 +152,6 @@
 
       %img.quote-left-carousel{:src => '/assets/quote_left.png', :alt => 'quote left'}
       %img.quote-right-carousel{:src => '/assets/quote_left.png', :alt => 'quote right'}
-      / Controls
       %a.left.carousel-control{:href => "#myCarousel", 'data-slide' => "prev"}
         &lsaquo;
 
@@ -160,69 +159,64 @@
         &rsaquo;
 }
 
-/ Zero Waste banner
-
 .become_partner.vmargin#_zerowaste
   .container
     .row.centered
-      .col-md-6.col-md-offset-3.col-sm-12
-        %h5  
+      .col-md-8.col-md-offset-2.col-sm-12
+        %h5.ouishare_stencil
           = t('dynamic_translations.about.tagline_4')
         %hr.pink
         %p
-          = t('dynamic_translations.about.text_4')
+          = t('dynamic_translations.about.text_4_1')
+        %p
+          = t('dynamic_translations.about.text_4_2')
+        %h5
+          = t('dynamic_translations.about.tagline_4_1')
+        %ul
+          %li
+            = t('dynamic_translations.about.list_4_1')
+          %li
+            = t('dynamic_translations.about.list_4_2')
+          %li
+            = t('dynamic_translations.about.list_4_3')
+          %li
+            = t('dynamic_translations.about.list_4_4')
+          %li
+            = t('dynamic_translations.about.list_4_5')
+          %li
+            = t('dynamic_translations.about.list_4_6')
+          %li
+            = t('dynamic_translations.about.list_4_7')
 
-/ #_awards.vspace.aboutouishare-section
-/   .container
-/     .row.centered
-/       %h3.ouishare_stencil
-/         = t('dynamic_translations.ouishare_awards.title')
-/       %hr.pink
-/       %br
-/       %br
-/       .container.round_fond
-/         .row
-/           .col-md-8.col-md-offset-2
-/             %p
-/               = t('dynamic_translations.ouishare_awards.first_part')
-
-/         .row
-/           .col-md-8.col-md-offset-2
-/             .col-md-12
-/               %img{:src => '/assets/ouishare-award.png', :alt => 'ouishare awards logo', :style => 'width:50%;'}
-/             .col-md-12
-/               %a{:href => 'http://awards.ouishare.net/2015/', :target => '_blank'}
-/                 .btn.btn-embossed.btn-primary{:style => 'margin: 30px 0px 0px 0px;'}
-/                   = t('dynamic_translations.ouishare_awards.see_2015_winners')
-
-
-
-/ About OuiShare
-#_ouishare.aboutouishare-section.heart_bg
+#_ouishare.aboutouishare-section
   .container
     .row.centered
       %h3.ouishare_stencil
-        = t('dynamic_translations.about.ouishare_title')
+        = t('dynamic_translations.about.tagline_5_1')
       %hr.pink
       %br
       %br
-      .container.round_fond
+      .container
         .row
           .col-md-8.col-md-offset-2
+            %p
+              = t('dynamic_translations.about.text_5_1')
             %p{:style => "padding-top:30px"}
-              = t('dynamic_translations.about.ouishare_text')
-
+              = t('dynamic_translations.about.text_5_2')
+            %p{:style => "padding-top:30px"}
+              = t('dynamic_translations.about.text_5_3')
+      %h3.ouishare_stencil{style: 'margin-top: 80px;'}
+        = t('dynamic_translations.about.tagline_5_2')
+      %hr.pink
+      %br
+      .container
         .row
           .col-md-8.col-md-offset-2
-            .col-md-12
-              %img{:src => '/assets/coeur-aboutouishare.png', :alt => 'OuiShare logo'}
-            .col-md-12
-              %a{:href => 'http://ouishare.net/en/users/sign_up', :target => '_blank'}
-                %button.btn.btn-embossed.btn-primary{:style => 'margin: 40px 0px 0px 0px;'}
-                  = t('dynamic_translations.about.ouishare_btn')
+            %p
+              = t('dynamic_translations.about.text_5_4')
 
 / Join section
-.blank_bg.vspace
+.blank_bg
   .container
     .row.centered
       %h3.ouishare_stencil

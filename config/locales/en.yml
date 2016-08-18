@@ -29,11 +29,26 @@ en:
       text_3:
 
       tagline_4: What is a Zero Waste Event?
-      text_4: A Zero Waste Event is any one-time program, occasion or event that does everything possible to reduce and divert waste from landfills and incinerators.<br> This entails planning ahead to reduce solid waste from the event, limit the use of unnecessary items, reusing and recycling various materials, donating leftovers, as well as having clear signage to guide participants and staff as to how to make use of proper receptacles. These practices must be applied throughout the entire event organization process, including the planning phase, assembly, disassembly and post-event, ensuring that nothing is left behind
+      text_4_1: A Zero Waste Event is any one-time program, occasion or event that does everything possible to reduce and divert waste from landfills and incinerators.
+      text_4_2: This entails planning ahead to reduce solid waste from the event, limit the use of unnecessary items, reusing and recycling various materials, donating leftovers, as well as having clear signage to guide participants and staff as to how to make use of proper receptacles. These practices must be applied throughout the entire event organization process, including the planning phase, assembly, disassembly and post-event, ensuring that nothing is left behind.
+      tagline_4_1: "Things we are going to experiment with:"
+      text_4_3: "For the first edition of ColaborAmerica we are going to experiment with some actions to minimize the impact we cause by organizing this event:"
+      list_4_1: "Energy control and efficiency: we are installing energy monitors donated to us by GreenAnt in all the event's facilities. This way we can keep track of how much energy we consume and compensate it at the end of the event."
+      list_4_2: "Water consumption reduction: As important as controlling how much energy we consume, is controlling and reducing how much water we consume. For this reason we decided to have compostable chemical bathrooms. Yes, that's right! All of your natural body waste will become great fertilizer to be used in reforestation projects in Rio!."
+      list_4_3: "Biological waste: As any sustainable action, the goal is to prevent waste, but we know that there is always some food waste. This is why we partner with Ciclo Orgânico and all of our bio waste will become fertilizer to be donated for reforestation projects in Rio."
+      list_4_4: "CO2 footprint: Did you notice you had to fill a form to register at the event? This is because we are going to compensate our CO2 emission for the event. We are going to calculate all the carbon equivalency of our impacts (water usage, energy consumption, transportation of all attendees to come to the event, logistics, etc) and compensate it by reforesting part of Mata Atlântica, the native tropical forest where Rio is in. The reforestation will happen after the event on an open-day-hands-on activity at the preserved area of Reserva do Bom Retiro with our partners from Carpe."
+      list_4_5: "No disposable items: During the whole event you are not going to find any disposable cups, plates or cutlery. We organize our logistic so that you receive what you’ll need during the event. So, keep you cups with you all the time! ;-)"
+      list_4_6: "A digital event: As everyday we evolve towards a more digital society, ColaborAmerica will leverage this fact to organize a more sustainable event. Don’t expect to have a printed program, or a physical goody bag; all the information you need is in the palm of your hand through your phone!"
+      list_4_7: "Recycling the inevitable: Despite all of our efforts, we are probably still going to generate some kind of residue, but don’t worry, we are going to give it all the right destination so it is recycled."
 
+      tagline_5_1: Why Colaboramerica
+      text_5_1: "Latin American societies today face systemic challenges such as: high rates of inequality, unequal access to clean water and healthcare; rapidly increasing environmental degradation and waste production; and above all lack of transparency and accountability in large companies, institutions and governments."
+      text_5_2: At the same time, the culture of entrepreneurship and community that takes root into the region’s history and traditions, constitute a fertile ground for a new economy that works for people and the planet, at the crossroads between digital and social innovation.
+      text_5_3: As world's economies get stucked into combined economic, social and environmental crises, the need for a more conscious economical model gets more and more necessary. We believe that through a new economic framework in its unique context, Latin America holds huge opportunity to leapfrog its many challenges, while inspiring many others around the world.
+      
+      tagline_5_2: TRADITION MEETS TRANSITION 
+      text_5_4: "From the Mapuches in the Andes ridge to the Amazon Kayapó tribes, going through Brazilian favelas, traditional, nature wise and collaborative ways of living are still present and strong in Latin America. At the same time, new economical models driven by disruptive technologies such as Blockchain, Crowdfunding, P2P collaboration and circular economy approaches are rapidly evolving, bringing social innovation to a new momentum. In this scenario where tradition and transition overlap we see a new economy being born in the continent. By understanding this unique phenomenon, ColaborAmerica chose as its theme: \"From tradition to transition, the evolution of new economies in Latin America\"."
 
-      tagline_5: Why Colaboramerica
-      text_5:
     main:
       title: The Age of Communities
       event: Paris. May 5-7 at Cabaret Sauvage
