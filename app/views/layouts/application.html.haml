@@ -16,6 +16,8 @@
     %meta{:content => "http://ouisharefest.com/assets/osf16edges_og.png", :property => "og:image"}/
     %meta{:content => "ColaborAmerica", :property => "og:description"}/
     = analytics_init if Rails.env.production?
+    = render 'tracking_codes'
+
   %body
 
     #fb-root
@@ -34,4 +36,3 @@
     = yield
     - if controller.action_name != "site_off" && controller.controller_name != "stories"
       = render 'layouts/footer'
-

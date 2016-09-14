@@ -45,7 +45,7 @@
       %br
 
     - while !array_buffer.empty? do
-      .row.centered
+      .row.centered{ style: 'margin-bottom: 2em' }
         - array_buffer.first(4).each do |partner|
           .col-sm-2.partners
             %a{:href => partner.url, :target => "_blank"}

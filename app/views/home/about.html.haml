@@ -1,7 +1,5 @@
 %div
   %img{alt: "", src: "assets/slider/about-quote.jpg", style: "background:#1abc9c; width:100%; height:auto; display: block;"}/
-            
-
 
 .blank_bg#_about
   .container
@@ -10,8 +8,9 @@
         %h5.col-md-6.col-md-offset-3.ouishare_stencil.white.text-center#_about
           %span.bluebg
             = t('dynamic_translations.about.tagline_1')
-        %h4.ouishare-stencil{style: 'clear: left; margin-top: 80px; text-transform: none'}
-          = t('dynamic_translations.about.tagline_1_1')
+        .col-md-8.col-md-offset-2
+          %h4.ouishare-stencil{style: 'clear: left; margin-top: 80px; text-transform: none'}
+            = t('dynamic_translations.about.tagline_1_1')
         -# .carousel.slide.col-xs-12.col-md-offset-1.col-lg-offset-2.col-md-10.col-lg-8
         -#   .carousel-inner
         -#     .item.active
@@ -34,7 +33,7 @@
       -#       %button.btn.btn-large.btn-primary
       -#         = t('dynamic_translations.button.see_program')
 
-#_key_topics.triangle_bg_topics.white_txt
+#_key_topics.triangle_bg_topics.white_txt{style: 'margin-bottom: 0'}
   .container
     .third-section
       .row.centered
@@ -89,6 +88,54 @@
             %li
               \#FutureOfCities
 
+
+.become_partner#_zerowaste
+  .container
+    .row.centered
+      .col-md-8.col-md-offset-2.col-sm-12
+        %h5.ouishare_stencil
+          = t('dynamic_translations.about.tagline_4')
+        %hr.pink
+        %p
+          = t('dynamic_translations.about.text_4_1')
+        %p
+          = t('dynamic_translations.about.text_4_2')
+        %h5
+          = t('dynamic_translations.about.tagline_4_1')
+        %ul
+          %li
+            = t('dynamic_translations.about.list_4_1')
+          %li
+            = t('dynamic_translations.about.list_4_2')
+          %li
+            = t('dynamic_translations.about.list_4_3')
+          %li
+            = t('dynamic_translations.about.list_4_4')
+          %li
+            = t('dynamic_translations.about.list_4_5')
+          %li
+            = t('dynamic_translations.about.list_4_6')
+          %li
+            = t('dynamic_translations.about.list_4_7')
+
+#_colaboramerica.aboutouishare-section
+  .container
+    .row.centered
+      %h3.ouishare_stencil
+        = t('dynamic_translations.about.tagline_5_1')
+      %hr.pink
+      %br
+      %br
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            %p
+              = t('dynamic_translations.about.text_5_1')
+            %p{:style => "padding-top:30px"}
+              = t('dynamic_translations.about.text_5_2')
+            %p{:style => "padding-top:30px"}
+              = t('dynamic_translations.about.text_5_3')
+
 .blank_bg#_past_editions
   .container
     .row
@@ -107,9 +154,8 @@
       .col-md-6
         %iframe{width: '560', height: '315', src: 'https://www.youtube.com/embed/DdkPM5TrNz0', frameborder: '0', allowfullscreen: ''}
 
-
 / What the press says
-.blank_bg#_about_press{style: 'margin-top: 100px'}
+.blank_bg.vmargin#_about_press{style: 'margin-top: 100px'}
   .container
     .row.centered
       %h3.ouishare_stencil
@@ -158,53 +204,6 @@
       %a.right.carousel-control{:href => "#myCarousel", 'data-slide' => "next" }
         &rsaquo;
 }
-
-.become_partner.vmargin#_zerowaste
-  .container
-    .row.centered
-      .col-md-8.col-md-offset-2.col-sm-12
-        %h5.ouishare_stencil
-          = t('dynamic_translations.about.tagline_4')
-        %hr.pink
-        %p
-          = t('dynamic_translations.about.text_4_1')
-        %p
-          = t('dynamic_translations.about.text_4_2')
-        %h5
-          = t('dynamic_translations.about.tagline_4_1')
-        %ul
-          %li
-            = t('dynamic_translations.about.list_4_1')
-          %li
-            = t('dynamic_translations.about.list_4_2')
-          %li
-            = t('dynamic_translations.about.list_4_3')
-          %li
-            = t('dynamic_translations.about.list_4_4')
-          %li
-            = t('dynamic_translations.about.list_4_5')
-          %li
-            = t('dynamic_translations.about.list_4_6')
-          %li
-            = t('dynamic_translations.about.list_4_7')
-
-#_ouishare.aboutouishare-section
-  .container
-    .row.centered
-      %h3.ouishare_stencil
-        = t('dynamic_translations.about.tagline_5_1')
-      %hr.pink
-      %br
-      %br
-      .container
-        .row
-          .col-md-8.col-md-offset-2
-            %p
-              = t('dynamic_translations.about.text_5_1')
-            %p{:style => "padding-top:30px"}
-              = t('dynamic_translations.about.text_5_2')
-            %p{:style => "padding-top:30px"}
-              = t('dynamic_translations.about.text_5_3')
 
 / Join section
 .blank_bg
