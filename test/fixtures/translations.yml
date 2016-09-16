@@ -281,7 +281,7 @@ speakers__hide_all:
 get_involved__call_for_proposal:
   locale: en
   key: dynamic_translations.get_involved.call_for_proposal
-  value: Would you like to join the project?
+  value: WOULD YOU LIKE TO SUBMIT A PROPOSAL?
   is_proc: false
   created_at: '2014-06-26 21:15:35.438586'
   updated_at: '2014-07-21 15:40:57.473051'
