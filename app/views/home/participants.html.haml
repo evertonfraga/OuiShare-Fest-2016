@@ -40,13 +40,6 @@
             - @team_members.each do |team_member|
               .col-lg-3.individuals-list-display
                 %li
-                  .ch-item{style: "background-image:url('')"}
-                    .ch-info
-                  %h6{:style => "color:#001E60;"}
-                    %b
-                      Teste
-                    %br/
-                %li
                   = render "/individuals/partials/team_member_display", :team_member => team_member          
             / - if !@hidden_team_members.blank?
             /   %div

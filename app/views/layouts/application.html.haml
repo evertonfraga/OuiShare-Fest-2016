@@ -16,7 +16,7 @@
     %meta{:content => "http://ouisharefest.com/assets/osf16edges_og.png", :property => "og:image"}/
     %meta{:content => "ColaborAmerica", :property => "og:description"}/
     = analytics_init if Rails.env.production?
-    = render 'tracking_codes'
+    = render 'layouts/tracking_codes'
 
   %body
 
