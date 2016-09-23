@@ -23,16 +23,6 @@
           / %br
           %br
           %p.centered.join_bouton
-            = form_tag home_newsletter_collect_email_path, :class => "form-inline" do
-              .row
-                %h5.normal.white
-                  = t('dynamic_translations.main.subscribe_title')
-                  %br
-                  %br
-              .row
-                .col-md-6.col-md-push-3
-                  = text_field_tag :email_address,"", :class => "form-control-header", :placeholder => t('dynamic_translations.main.placeholder_stay_posted')
-                  = submit_tag t('dynamic_translations.main.stay_posted'), :class => "btn-header btn btn-primary", :style => 'border-radius: 0px;'
             %a{:href => 'join'}
               %button.btn.btn-embossed.btn-primary
                 Join the event
