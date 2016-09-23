@@ -33,9 +33,9 @@
                 .col-md-6.col-md-push-3
                   = text_field_tag :email_address,"", :class => "form-control-header", :placeholder => t('dynamic_translations.main.placeholder_stay_posted')
                   = submit_tag t('dynamic_translations.main.stay_posted'), :class => "btn-header btn btn-primary", :style => 'border-radius: 0px;'
-            / %a{:href => 'join#_tickets'}
-            /   %button.btn.btn-embossed.btn-primary
-            /     = t('dynamic_translations.reminder_ticket.getyourtickets')
+            %a{:href => 'join'}
+              %button.btn.btn-embossed.btn-primary
+                Join the event
 
 #controls.controls
 = javascript_include_tag 'triangles'
